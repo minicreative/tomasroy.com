@@ -1,6 +1,6 @@
 ---
 title: Hume as only epistemically skeptical of causation
-date: 2018-03-07 15:29:00 -05:00
+date: 2016-12-08 15:29:00 -05:00
 ---
 
 David Hume is widely recognized for his examination of the concept of causation and its significance in human perception. In his *Enquiry Concerning Human Understanding*, Hume delineates the extent to which the supposition of connected phenomena, namely cause and effect, is the primary basis for knowledge or assumptions about the material world, and famously proposes a critique of the rationale behind causation known as the Problem of Induction. Hume’s apparent attack on the legitimacy of an understanding so central to human experience can initially be understood as a radical skepticism, but a closer look at his discussion of causation throughout the *Enquiry* yields considerable doubt about whether or not Hume should actually be considered a skeptic about causation. In this paper I summarize Hume’s account of cause and effect, present his argument concerning the Problem of Induction, and assert that an assessment of Hume’s overall discussion of causation and his firm distinction between empirical experience and a priori reasoning leads to the conclusion that Hume is not, in a specific sense which I will define, skeptical about causation.
