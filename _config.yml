@@ -12,3 +12,10 @@ url: http://tomasroy.com
 corner_image: "/uploads/53.jpg"
 sass:
   style: compressed
+navigation:
+- title: Writing
+  link: "/writing"
+- title: Projects
+  link: "/projects"
+- title: Say Hi
+  link: "/contact"
