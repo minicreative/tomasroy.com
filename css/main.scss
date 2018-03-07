@@ -17,7 +17,7 @@
 
 // Resets and Universal Classes ================================================
 html, body {margin:0px; padding:0px; width:100%; overflow-x: hidden !important;}
-h1, h2, h3, h4, h5, h6, p {margin:0px;}
+h1, h2, h3, h4, h5, h6 {margin:0px;}
 img {max-width:100%; border:0px;}
 a {text-decoration:none; color:inherit;}
 #preload {display:none;}
@@ -77,5 +77,6 @@ $mobile: 400px;
 // Colors, Fonts, Frills =======================================================
 
 // Fonts: Universal
-body {font-family:'Nunito Sans', 'Helvetica', 'Arial', sans-serif; font-size:16px; line-height:1.4;}
+@import "fonts";
+body {font-family:'Avenir', 'Helvetica', 'Arial', sans-serif; font-size:16px; line-height:1.4;}
 
