@@ -29,7 +29,7 @@ sass:
 navigation:
 - title: Writing
   link: "/writings"
-- title: Projects
+- title: Code + Design
   link: "/projects"
 - title: Say Hi
   link: "/contact"
