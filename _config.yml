@@ -21,7 +21,7 @@ sass:
   style: compressed
 navigation:
 - title: Writing
-  link: "/writing"
+  link: "/writings"
 - title: Projects
   link: "/projects"
 - title: Say Hi
