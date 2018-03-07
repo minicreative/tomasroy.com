@@ -1,0 +1,13 @@
+{% include head.html %}
+
+	<div class="content">
+		<div class="container">
+			<h1>Projects</h1>
+			{% assign sorted_items = site.projects | sort:"order" %}
+			{% for item in sorted_items %}{% if item.id != "/projects/index" %}
+				{% include item.html %}
+			{% endif %}{% endfor %}
+		</div>
+	</div>
+	
+{% include foot.html %}

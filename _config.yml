@@ -11,6 +11,9 @@ collections:
   writing:
     title: Writing
     output: true
+  projects:
+    title: Projects
+    output: true
 url: http://tomasroy.com
 corner_image: "/uploads/53.jpg"
 footer: Built with love using Jekyll

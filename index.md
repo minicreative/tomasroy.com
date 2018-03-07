@@ -1,7 +1,7 @@
 ---
 title: Home
 id: home
-layout: basic
+layout: home
 ---
 
 My name is Tomas (*toe-mus*)
