@@ -1,6 +1,6 @@
 ---
 title: Motion as the Most Effective Path to Truth
-date: 2016-03-28 13:55:00 -04:00
+date: 2016-04-11 13:55:00 -04:00
 layout: post
 ---
 
