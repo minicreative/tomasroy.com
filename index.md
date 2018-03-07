@@ -1,7 +1,7 @@
 ---
 title: Home
-id: home
 layout: home
+url: "/contact"
 ---
 
 My name is Tomas (*toe-mus*)

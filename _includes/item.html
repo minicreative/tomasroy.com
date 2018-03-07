@@ -1,7 +1,7 @@
 <a href="{{ item.url }}">
 	<div class="item">
 		<div class="title">{{ item.title }}</div>
-		<div class="detail">{{ page.date | date: "%B %Y" }}</div>
+		<div class="detail">{{ item.date | date: "%B %Y" }}</div>
 		<div class="description">{{ item.content | strip_html | truncate: 150 }}</div>
 	</div>
 </a>
