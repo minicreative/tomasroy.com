@@ -1,6 +1,7 @@
 ---
 title: Motion as the Most Effective Path to Truth
 date: 2018-03-07 13:55:00 -05:00
+layout: post
 ---
 
 There are many good reasons that human beings tend to stay in one place. There are simple reasons, like familiarity, which leads to safety, which at its core is a biological drive, and social consistency - history and biology demonstrate that we are fundamentally social beings. Human civilization and society and the basis of ancient and modern economies are based on geographically static lifestyles. On a personal level, there have most certainly been environments in which I’ve thrived because of static living - most of my life has been spent this way.\
