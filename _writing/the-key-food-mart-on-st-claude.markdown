@@ -1,6 +1,6 @@
 ---
 title: The Key Food Mart on St. Claude
-date: 2018-03-07 13:53:00 -05:00
+date: 2016-03-17 13:53:00 -04:00
 layout: post
 ---
 
