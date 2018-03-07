@@ -1,0 +1,81 @@
+---
+---
+
+// SASS mixins =================================================================
+@mixin box-shadow($shadow) {-moz-box-shadow: $shadow; -webkit-box-shadow: $shadow; box-shadow: $shadow;}
+@mixin border-radius($radius) {-moz-border-radius: $radius; -webkit-border-radius: $radius; border-radius: $radius; background-clip: padding-box;}
+@mixin transition($transition) {-webkit-transition: $transition; -moz-transition: $transition; -o-transition: $transition; transition: $transition;}
+@mixin box-sizing($type) {-webkit-box-sizing: $type; -moz-box-sizing: $type; box-sizing: $type;}
+@mixin animate($animation, $speed) {-webkit-animation-duration:$speed; animation-duration:$speed;
+    -webkit-animation-fill-mode:both; animation-fill-mode:both;
+    -webkit-animation-name:$animation; animation-name:$animation;}
+@mixin gradient_bg($color1, $color2) {
+	background: -moz-linear-gradient(top, $color1 0%, $color2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, $color1 0%, $color2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, $color1 0%, $color2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+// Resets and Universal Classes ================================================
+html, body {margin:0px; padding:0px; width:100%; overflow-x: hidden !important;}
+h1, h2, h3, h4, h5, h6, p {margin:0px;}
+img {max-width:100%; border:0px;}
+a {text-decoration:none; color:inherit;}
+#preload {display:none;}
+div, input, textarea {box-sizing:border-box;}
+input, textarea {border:0px; font-family:inherit; -webkit-appearance: none;}
+input:focus, textarea:focus {outline:none;}
+
+// Responsive Layout Scheme ====================================================
+
+// Spacing Variables
+$pad: 30px; // default and standard
+$pad_: 20px; // tablet and mobile
+
+// Container Width Variables
+$default: 1140px;
+$standard: 960px;
+$tablet: 700px;
+$mobile: 400px;
+
+// breakpoint: reponsive adaptation mixin
+@mixin breakpoint($point) {
+	// standard
+	@if $point == l {
+        @media screen and (max-width: 1200px)  {@content;}
+    }
+	// table
+    @else if $point == m {
+        @media screen and (max-width: 1000px)  {@content;}
+    }
+	// table (only)
+	@else if $point == m_only {
+		@media screen and (max-width: 1000px) and (min-width:760px) {@content;}
+	}
+	// (not) mobile)
+	@else if $point == s_not {
+		@media screen and (min-width:760px) {@content;}
+	}
+	// mobile
+    @else if $point == s {
+        @media screen and (max-width: 760px)  {@content;}
+    }
+	// small mobile
+    @else if $point == xs {
+        @media screen and (max-width:440px) {@content;}
+    }
+}
+
+// Container
+.container {position:relative; margin:0px auto;
+	width:$default; // default width
+	@include breakpoint(l) {width:$standard;} // standard width
+	@include breakpoint(m) {width:$tablet;} // tablet width
+	@include breakpoint(s) {width:$mobile;} // mobile width
+	@include breakpoint(xs) {width:auto; margin:0px 20px;} // minimum width
+}
+
+// Colors, Fonts, Frills =======================================================
+
+// Fonts: Universal
+body {font-family:'Helvetica', 'Arial', sans-serif; font-size:16px; line-height:1.4;}
+

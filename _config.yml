@@ -1,0 +1,13 @@
+---
+title: Tomas Roy
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: http://tomasroy.com
+sass:
+  style: compressed
