@@ -63,6 +63,7 @@ b {font-weight:700;}
 h1 {font-size:36px; line-height:1.2;}
 h2 {font-size:24px;}
 h3 {font-size:18px;}
+a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
 .detail {color:$text_subtle; margin-top:8px;}
 
 // Basic Layout Elements ========================================================
@@ -88,15 +89,12 @@ header {
 		a {
 			display:inline-block; margin-right:20px; font-size:16px;
 			padding-bottom:2px; border-bottom:1px solid rgba(0,0,0,0);
-			&:hover {border-bottom:1px solid $subtle;}
 		}
 	}
 }
 
 .content {
 	@include row; font-size:18px; font-weight:300; line-height:1.5;
-	a {border-bottom:1px solid $subtle;
-		&:hover {border-bottom:1px solid $subtle_;}}
 }
 
 .item {

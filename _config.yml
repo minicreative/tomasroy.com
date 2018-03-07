@@ -21,7 +21,7 @@ corner_images:
 - "/uploads/40.jpg"
 - "/uploads/30.jpg"
 - "/uploads/41.jpg"
-footer: Built with Jekyll, hosted on DigitalOcean
+footer_text: Built with Jekyll, hosted on DigitalOcean
 sass:
   style: compressed
 navigation:
