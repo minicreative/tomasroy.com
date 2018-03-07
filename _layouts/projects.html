@@ -3,7 +3,7 @@
 	<div class="content">
 		<div class="container">
 			<h1>Projects</h1>
-			{% assign sorted_items = site.projects | sort:"order" %}
+			{% assign sorted_items = site.project | sort:"order" %}
 			{% for item in sorted_items %}
 				{% include item.html %}
 			{% endfor %}
