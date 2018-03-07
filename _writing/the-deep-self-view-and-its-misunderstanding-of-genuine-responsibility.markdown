@@ -42,9 +42,11 @@ I believe the detailed analysis provided by Frankfurt and furthered by Wolf does
 **Works Cited**
 
 Aquinas, Thomas. The Summa Theologica of St. Thomas Aquinas. London: Burns Oates & Washbourne, 1912. Print.
+
 Frankfurt, Harry. “Alternative Possibilities and Moral Responsibility.” The Journal of Philosophy 66.1 (1969): 443-489. Web.
 
 Frankfurt, Harry. “Freedom of the Will and the Concept of a Person.” The Journal of Philosophy 68.1 (1971): 5-20. Web.
+
 Hume, David. An Enquiry Concerning Human Understanding. Vol. XXXVII, Part 3. The Harvard Classics. New York: P.F. Collier & Son, 1909–14; Bartleby.com, 2001. 30 Nov. 2015.
 
 Wolf, Susan. “Sanity and the Metaphysics of Responsibility.” Responsibility, Character, and the Emotions: New Essays in Moral Psychology. Ed. Ferdinand David Schoeman. New York: Cambridge University Press, 1988. 457-467. Web.
