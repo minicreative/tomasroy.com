@@ -9,5 +9,6 @@ collections:
     title: Uploads
     output: true
 url: http://tomasroy.com
+corner_image: 
 sass:
   style: compressed
