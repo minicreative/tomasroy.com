@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  writing:
+    title: Writing
+    output: true
 url: http://tomasroy.com
 corner_image: "/uploads/53.jpg"
 footer: Built with love using Jekyll
