@@ -17,13 +17,16 @@
 		<script type="text/javascript" src="/js/main.js"></script>
 
 	</head>
-	<body>
+	<body class="{{ page.id }}">
 
-		<div class="corner">
-			<div class="image" style="background-image:url('{{ site.corner_image }}')"></div>
-		</div>
-
+		<!-- Corner -->
+		<div class="corner" style="background-image:url('{{ site.corner_image }}')"></div>
+		
+		<!-- Header -->
 		<header>
+			<div class="container">
+				<div class="title">{{ site.title }}</div>
+			</div>
 		</header>
 
 

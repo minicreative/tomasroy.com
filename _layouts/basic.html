@@ -1,5 +1,9 @@
 {% include head.html %}
 
-	{{ page.content | markdownify }}
-
+	<div class="content">
+		<div class="container">
+			{{ page.content | markdownify }}
+		</div>
+	</div>
+	
 {% include foot.html %}
