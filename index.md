@@ -4,7 +4,7 @@ id: home
 layout: basic
 ---
 
-My name is Tomas (toe-mus)
+My name is Tomas (*toe-mus*)
 
 I'm fascinated by the concept of truth, and I like to practice radical faith in humanity.
 

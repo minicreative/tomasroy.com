@@ -26,6 +26,9 @@
 		<header>
 			<div class="container">
 				<div class="title">{{ site.title }}</div>
+				<div class="navigation">
+					{% for nav in site.navigation %}<a href="{{ nav.link }}">{{ nav.title }}</a>{% endfor %}
+				</div>
 			</div>
 		</header>
 

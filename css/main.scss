@@ -41,38 +41,57 @@ $pad_: 20px; // tablet and mobile
 // Container
 .container {position:relative; margin:0px auto;
 	width:720px; margin:0px auto;
-	@include breakpoint(s) {margin:0px $pad;}
+	@include breakpoint(s) {width:auto; margin:0px $pad;}
 	@include breakpoint(xs) {margin:0px $pad_;}
 }
 
 // Spacing
-@mixin row {margin-top:$pad; @include breakpoint(s) {margin-top:$pad_;}}
+@mixin row {margin-top:$pad; @include breakpoint(xs) {margin-top:$pad_;}}
 
 // Colors, Fonts, Frills =======================================================
 
+$text: #222;
+$text_subtle: #999;
+$subtle: #eee;
+
 // Fonts
-body {font-family:'Avenir', 'Helvetica', 'Arial', sans-serif; font-size:16px; line-height:1.4;}
+body {font-family:'Avenir', 'Helvetica', 'Arial', sans-serif; font-size:16px; 
+	line-height:1.2; font-weight:400; color:$text;}
+em {font-weight:inherit; font-style:italic;}
+b {font-weight:700;}
 
 // Basic Layout Elements ========================================================
 
 .corner {
-	position:absolute; top:0px; left:50%; width:50%; height:20vw; 
+	position:absolute; top:0px; left:40%; width:60%; height:20vw; max-height:500px;
 	background-size:cover; background-repeat:no-repeat;
 	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%); clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 
 header {
-	@include row;
-	.title {font-size:32px; font-weight:700; text-transform:lowercase;}
-	.navigation {}
+	@include row; padding-bottom:20px; text-transform:lowercase;
+	.title {font-size:32px; font-weight:700; line-height:1;}
+	.navigation {
+		margin-top:10px;
+		a {
+			display:inline-block; margin-right:20px; font-size:16px;
+
+			padding-bottom:2px; border-bottom:1px solid rgba(0,0,0,0);
+			&:hover {border-bottom:1px solid $subtle;}
+		}
+	}
 }
 
 .content {
-	@include row;
+	@include row; font-size:18px; font-weight:300; line-height:1.5;
+}
+
+footer {
+	@include row; padding:$pad 0px; border-top:1px solid $subtle; 
+	color:$text_subtle;
 }
 
 // Page-specific Styles ========================================================
-.home .content {font-size:20px;}
 
 // Imports =====================================================================
 @import "fonts";

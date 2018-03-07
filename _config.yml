@@ -10,6 +10,7 @@ collections:
     output: true
 url: http://tomasroy.com
 corner_image: "/uploads/53.jpg"
+footer: Built with love using Jekyll
 sass:
   style: compressed
 navigation:
