@@ -22,6 +22,7 @@
     font-family: 'Avenir';
     src: url('fonts/Avenir-Oblique-webfont.eot');
     src: url('fonts/Avenir-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Avenir-Oblique-webfont.woff2') format('woff2'),
          url('fonts/Avenir-Oblique-webfont.woff') format('woff'),
          url('fonts/Avenir-Oblique-webfont.ttf') format('truetype');
     font-weight: 400;
@@ -36,16 +37,6 @@
          url('fonts/Avenir-Medium-webfont.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir';
-    src: url('fonts/Avenir-MediumOblique-webfont.eot');
-    src: url('fonts/Avenir-MediumOblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Avenir-MediumOblique-webfont.woff') format('woff'),
-         url('fonts/Avenir-MediumOblique-webfont.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
 }
 
 @font-face {
