@@ -1,6 +1,7 @@
 ---
 title: The ‘Deep-Self View’ and its Misunderstanding of Genuine Responsibility
 date: 2015-12-01 15:25:00 -05:00
+layout: post
 ---
 
 One of the most universal human convictions is the understanding that we possess a will that we are free to direct towards any end we might choose. In spite of the strength of this conviction, however, the scientific understanding of natural laws and human psychology has presented legitimate reasons to believe we are mistaken. An intuitive understanding of free will appears to be at odds with determinism, while the denial of determinism has equally devastating implications for the same understanding. The debate continues, however, not simply because of our desire to be free but because of the fundamental role which free will plays in the validation of moral responsibility. In response to this dilemma, theories of compatibilism have been introduced which appear to present conceptions of free will that validate moral responsibility while remaining logically consistent with determinism. One such theory, conceived in part by Harry Frankfurt and substantially furthered by Susan Wolf, presents an attractive understanding of compatibilism which Wolf entitles the deep-self view. While I readily acknowledge I am unable to provide a conclusive understanding of the free will dilemma as a whole, I hope to assert the ways in which Frankfurt and Wolf’s conception of freedom is incompatible with and damaging to what I believe to be a correct understanding of responsibility.
