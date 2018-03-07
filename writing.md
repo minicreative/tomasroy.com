@@ -1,6 +1,6 @@
 ---
 title: Writing
+url: "/writings"
 layout: writing
-url: "/writing"
 ---
 
