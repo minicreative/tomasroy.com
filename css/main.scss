@@ -67,11 +67,17 @@ h3 {font-size:18px;}
 
 // Basic Layout Elements ========================================================
 
-.corner {
+#corner {
 	position:absolute; top:0px; left:40%; width:60%; height:18vw; max-height:500px;
 	background-size:cover; background-repeat:no-repeat; z-index:20;
 	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%); clip-path: polygon(100% 0, 0 0, 100% 100%);
 	@include breakpoint(xs) {left:auto; right:0px; height:150px; width:150px;}
+	
+	&.image-0 {background-image:url("/uploads/30.jpg");}
+	&.image-1 {background-image:url("/uploads/40.jpg");}
+	&.image-2 {background-image:url("/uploads/41.jpg");}
+	&.image-3 {background-image:url("/uploads/53.jpg");}
+	&.image-4 {background-image:url("/uploads/57.jpg");}
 }
 
 header {
