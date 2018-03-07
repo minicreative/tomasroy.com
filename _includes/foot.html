@@ -1,6 +1,6 @@
 		<footer>
 			<div class="container">
-				{{ site.footer_text | markdownify }}
+				{{ site.footer_text | markdownify | strip_html }}
 			</div>
 		</footer>
 
