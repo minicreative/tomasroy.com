@@ -1,6 +1,7 @@
 ---
 title: Some thoughts on economy as community
 date: 2018-03-15 14:50:00 -04:00
+layout: post
 ---
 
 I was born into a tradition of middle-class American suburban existence at the turn of the millennium. I grew up in communities — schools, sports teams, churches, family gatherings — but also in isolation, a 2 mile walk from the nearest public gathering place, and almost never walked down a sidewalk passing people I’d never met.
