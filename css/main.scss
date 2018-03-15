@@ -119,6 +119,13 @@ footer {
 
 // Page-specific Styles ========================================================
 .content.home {font-size:22px;}
+.content.post {
+	.comments {
+		border-top:1px solid $subtle; padding-top:$pad; margin-top:$pad+20px;
+		@include breakpoint(s) {margin-top:$pad;}
+		h2 {margin-bottom:10px;}
+	}
+}
 
 // Imports =====================================================================
 @import "fonts";
