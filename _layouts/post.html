@@ -5,23 +5,7 @@
 			<h1>{{ page.title }}</h1>
 			<div class="detail">{{ page.date | date: "%B %Y" }}</div>
 			{{ page.content | markdownify }}
-
-			{% unless page.disable_comments %}
-			<div class="comments">
-				<h2>Leave a comment</h2>
-				<div id="disqus_thread"></div>
-			</div>
-			{% endunless %}
 		</div>
 	</div>
-
-	<script>
-		(function() {
-		var d = document, s = d.createElement('script');
-		s.src = 'https://tomasroy.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
-	</script>
 	
 {% include foot.html %}
