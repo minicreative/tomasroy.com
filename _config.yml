@@ -33,3 +33,5 @@ navigation:
   link: "/projects"
 - title: Say Hi
   link: "/contact"
+plugins:
+- jekyll-sitemap
