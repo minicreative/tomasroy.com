@@ -28,10 +28,10 @@ sass:
   style: compressed
 navigation:
 - title: Writing
-  link: "/writings"
+  link: "/writings.html"
 - title: Code + Design
-  link: "/projects"
+  link: "/projects.html"
 - title: Say Hi
-  link: "/contact"
+  link: "/contact.html"
 plugins:
 - jekyll-sitemap
