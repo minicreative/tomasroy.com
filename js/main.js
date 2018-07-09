@@ -52,6 +52,8 @@ var filterByTag = function (tag) {
 			if (span.hasClass(tag)) span.addClass("active");
 		})
 	});
+
+	$(".pagetitle").append(" tagged with "+tag);
 };
 
 // Plugins ======================================================================

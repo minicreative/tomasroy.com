@@ -4,7 +4,7 @@
 		<div class="detail">{{ item.date | date: "%B %Y" }} / {{ item.content | number_of_words }} words</div>
 		<div class="description">{{ item.content | strip_html | truncate: 150 }}</div>
 		<div class="tags">
-			{% for tag in item.tags %}<a href="/writings?tag={{tag}}"><span class="{{ tag }}">{{ tag }}</span></a>{% endfor %}
+			{% for tag in item.tags %}<a href="/writings.html?tag={{tag}}"><span class="{{ tag }}">{{ tag }}</span></a>{% endfor %}
 		</div>
 	</div>
 </a>
