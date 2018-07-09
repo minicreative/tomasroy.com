@@ -3,7 +3,6 @@ title: Sewer Grate
 date: 2016-05-19 14:00:00 -04:00
 tags:
 - poetry
-- love
 layout: post
 ---
 

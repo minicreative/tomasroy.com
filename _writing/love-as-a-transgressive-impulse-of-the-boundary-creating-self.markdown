@@ -4,7 +4,6 @@ date: 2018-04-27 13:25:00 -04:00
 tags:
 - assignment
 - philosophy
-- love
 - metaphysics
 layout: post
 ---
