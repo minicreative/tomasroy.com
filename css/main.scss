@@ -48,6 +48,7 @@ $pad_: 20px; // tablet and mobile
 
 // Spacing
 @mixin row {margin-top:$pad; @include breakpoint(xs) {margin-top:$pad_;}}
+@mixin rowpad {padding-top:$pad; @include breakpoint(xs) {padding-top:$pad_;}}
 
 // Colors, Fonts, Frills =======================================================
 
@@ -123,19 +124,19 @@ header {
 }
 
 .post-item {
-	@include row; padding-top:$pad; border-top:1px solid $subtle;
+	@include row; @include rowpad; border-top:1px solid $subtle;
 	.title {font-size:20px; font-weight:500;}
 	.detail {margin-top:0px; font-size:14px;}
 	.description {margin-top:10px;}
 }
 
 .project-item {
-	padding-top:$pad; border-bottom:1px solid $subtle;
+	@include rowpad;
 	.screen {float:left; width:400px; height:240px; margin-right:$pad;}
 	.title {padding-top:80px; font-size:20px; font-weight:500;}
 	.description {margin-top:10px; line-height:1.4; font-weight:300;}
 	&.even {
-		background:#f9f9f9;
+		background:#f8f8f8;
 		.screen {float:right; margin-left:$pad; margin-right:0px;}
 	}
 	@include breakpoint(s) {
