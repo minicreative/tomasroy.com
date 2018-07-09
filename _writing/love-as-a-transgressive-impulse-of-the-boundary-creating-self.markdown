@@ -1,12 +1,12 @@
 ---
 title: Love as a Transgressive Impulse of the Boundary-Creating Self
 date: 2018-04-27 13:25:00 -04:00
-layout: post
 tags:
 - assignment
 - philosophy
 - love
 - metaphysics
+layout: post
 ---
 
 The primary activity of the human intellect, at least as it exists in the Western (European) cultural and philosophical tradition in which I find myself, seems to be the creation of boundaries. Most of our mental representations, whether particular sensory images or broader abstract categories, can be understood as some idea of the boundary-suggesting form “this but not that,” and the fundamental principles of our logic are quite similar (e.g. the principle of non-contradiction). What’s more, we traditionally think of the intellect as belonging to, or synonymous with, the rational self or soul, an entity which we have gone great lengths to understand as distinct, ordered, and therefore bounded, psychologically but also metaphysically.

@@ -1,12 +1,12 @@
 ---
 title: The Divided Soul and Dostoevsky’s Polyphonic Response to Plato
 date: 2017-04-26 15:37:00 -04:00
-layout: post
 tags:
 - assignment
 - philosophy
 - literature
 - freedom
+layout: post
 ---
 
 The name which Dostoevsky gives to the protagonist of *Crime and Punishment*, Raskolnikov, comes from ‘raskol’ — Russian for ‘schism’ or ‘split.’ It is appropriate that Dostoevsky gives this name to an individual who exists in an almost manic state of conflict about his actions and beliefs for the entire time readers are acquainted with him. While Dostoevsky makes the paradigm of split psychology especially apparent in Raskolnikov, there is a significant body of literature which suggests that human psychology is split by default. An early elaboration of this concept can be found in Plato’s *Republic,* in which Plato suggests the soul is divided into three parts, which he calls appetite, reason, and spirit. Dostoevsky’s interest in this particular characterization of human nature is unquestionably present in his work. In “The Three Motives of Raskolnikov,” Maurice Beebe suggests “the conflict in the tripartite Raskolnikov is a struggle between the sensual, intellectual, and spiritual parts of his nature.” The very same characterization is unmistakable within *The Brothers Karamazov* as well: Dmitri can be understood as sensual, Ivan as intellectual, and Alyosha as spiritual. While a parallel between Plato and Dostoevsky’s psychological frameworks is certainly apparent, Plato’s conception of the divided soul is accompanied by a normative assertion that the rational part should be considered supreme. Dostoevsky’s portrayal of the intellect in a negative light, in both *Crime and Punishment* and *The Brothers Karamazov,* suggests he does not agree. With an understanding of the significant similarities between Plato and Dostoevsky as a foundation, I will bring attention to their significant point of disagreement, the question of authority, and demonstrate how Mikhail Bakhtin’s influential conception of Dostoevsky’s polyphonic voice illuminates an acute antithesis between the Russian genius and the Greek.
