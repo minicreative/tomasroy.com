@@ -118,10 +118,9 @@ header {
 
 .screen {
 	background-image:url('browser.svg'); background-size:100%; overflow:hidden;
-	img {margin-left:2%; margin-top:6%; width:96%;}
+	text-align:center;
+	img {margin-top:5%; width:96%;}
 }
-
-.item {}
 
 .post-item {
 	@include row; padding-top:$pad; border-top:1px solid $subtle;
@@ -131,13 +130,18 @@ header {
 }
 
 .project-item {
-	padding-top:$pad;
-	.screen {float:left; width:360px; height:240px; margin-right:$pad;}
+	padding-top:$pad; border-bottom:1px solid $subtle;
+	.screen {float:left; width:400px; height:240px; margin-right:$pad;}
 	.title {padding-top:80px; font-size:20px; font-weight:500;}
 	.description {margin-top:10px; line-height:1.4; font-weight:300;}
 	&.even {
 		background:#f9f9f9;
-		.screen {float:right; margin-left:$pad;}
+		.screen {float:right; margin-left:$pad; margin-right:0px;}
+	}
+	@include breakpoint(s) {
+		text-align:center; padding-bottom:20px;
+		.screen, &.even .screen {float:none; margin:0px auto; width:100%; height:auto; max-width:400px; max-height:240px;}
+		.title {padding-top:20px;}
 	}
 }
 
@@ -161,6 +165,13 @@ body.post {
 	.tags {margin:10px 0px 20px;}
 }
 body.projects {
+	footer {margin-top:0px; border-top:0px;}
+}
+body.project {
+	text-align:center;
+	#corner {display:none;}
+	header .navigation a {margin:0px 10px;}
+	.screen {margin-top:20px; max-height:420px;}
 	footer {margin-top:0px;}
 }
 
