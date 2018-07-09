@@ -19,6 +19,7 @@ a {text-decoration:none; color:inherit;}
 div, input, textarea {box-sizing:border-box;}
 input, textarea {border:0px; font-family:inherit; -webkit-appearance: none;}
 input:focus, textarea:focus {outline:none;}
+.clear {clear:both;}
 
 // Responsive Layout Scheme ====================================================
 
@@ -65,12 +66,8 @@ h1 {
 	@include breakpoint(xs) {font-size:30px;}
 }
 h2 {
-	font-size:24px;
-	@include breakpoint(xs) {font-size:20px;}
-}
-h3 {
-	font-size:18px;
-	@include breakpoint(xs) {font-size:16px;}
+	font-size:20px; line-height:1.2; font-weight:400; margin-top:10px;
+	@include breakpoint(xs) {font-size:18px;}
 }
 a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
 .detail {color:$text_subtle; margin-top:8px;}
@@ -82,7 +79,7 @@ a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
 // Basic Layout Elements ========================================================
 
 #corner {
-	position:absolute; top:0px; left:40%; width:60%; height:18vw; max-height:500px;
+	position:absolute; top:0px; left:40%; width:60%; height:18vw; max-height:260px;
 	background-size:cover; background-repeat:no-repeat; z-index:20;
 	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%); clip-path: polygon(100% 0, 0 0, 100% 100%);
 	@include breakpoint(xs) {left:auto; right:0px; height:150px; width:150px;}
@@ -111,20 +108,36 @@ header {
 	@include breakpoint(xs) {font-size:16px; line-height:1.5;}
 }
 
-.post-item {
-	@include row; padding-top:$pad;
-	border-top:1px solid $subtle;
-	.title {font-size:20px; font-weight:500;}
-	.detail {margin-top:0px; font-size:14px;}
-	.description {margin-top:10px;}
-}
-
 .tags {
 	margin:10px 0px -10px;
 	span {display:inline-block; margin-right:10px; margin-bottom:10px; padding:4px 6px; line-height:1;
 		border:1px solid $subtle_; font-size:13px; @include border-radius(2px);}
 	span:hover, span.active {background:$subtle;}
 	a {border:0px;}
+}
+
+.screen {
+	background-image:url('browser.svg'); background-size:100%;
+}
+
+.item {}
+
+.post-item {
+	@include row; padding-top:$pad; border-top:1px solid $subtle;
+	.title {font-size:20px; font-weight:500;}
+	.detail {margin-top:0px; font-size:14px;}
+	.description {margin-top:10px;}
+}
+
+.project-item {
+	padding-top:$pad;
+	.screen {float:left; width:320px; height:240px; margin-right:$pad;}
+	.title {padding-top:100px; font-size:20px; font-weight:500;}
+	.description {margin-top:10px; line-height:1.4; font-weight:300;}
+	&.even {
+		background:#f9f9f9;
+		.screen {float:right; margin-left:$pad;}
+	}
 }
 
 .contact-item {
@@ -140,11 +153,14 @@ footer {
 }
 
 // Page-specific Styles ========================================================
-.home {
+body.home {
 	.content {font-size:22px;}
 }
-.post {
+body.post {
 	.tags {margin:10px 0px 20px;}
+}
+body.projects {
+	footer {margin-top:0px;}
 }
 
 // Imports =====================================================================

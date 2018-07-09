@@ -2,13 +2,14 @@
 
 	<div class="content">
 		<div class="container">
-			<h1 class="pagetitle">{{ page.title }}</h1>
-			{{ page.content | markdownify }}
+			<h1>{{ page.title }}</h1>
 		</div>
 	</div>
 
 	{% assign sorted_items = site.projects | sort:"order" %}
+	{% assign even = false %}
 	{% for item in sorted_items %}
+		{% if even == true %}{% assign even = false %}{% else %}{% assign even = true %}{% endif %}
 		{% include project-item.html %}
 	{% endfor %}
 	

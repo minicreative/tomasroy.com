@@ -1,9 +1,10 @@
 <a href="{{ item.url }}">
-	<div class="item-project">
+	<div class="project-item{% if even != true %} even{% endif %}">
 		<div class="container">
+			<div class="screen"><img src="{{ item.primary_image }}" /></div>
 			<div class="title">{{ item.title }}</div>
 			<div class="description">{{ item.description }}</div>
-			<div class="screen"><img src="{{ item.primary_image }}" /></div>
+			<div class="clear"></div>
 		</div>
 	</div>
 </a>
