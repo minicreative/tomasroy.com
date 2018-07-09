@@ -1,11 +1,11 @@
 ---
 title: Akrasia and the divided soul
 date: 2017-04-19 15:34:00 -04:00
-layout: post
 tags:
 - assignment
 - philosophy
 - freedom
+layout: post
 ---
 
 ‘Akrasia’, a Greek term used to indicate an agent acting against his own better judgment, has been widely explored in philosophical literature as an example of human irrationality. In what can be considered the beginning of this exploration, the Socratic dialogue *Protagoras*, Plato suggests that akrasia is impossible, but later ancient and contemporary literature continues to discuss akrasia as a prevalent phenomenon that should be better understood. Donald Davidson, in a paper entitled “How Is Weakness of the Will Possible?,” concludes that akrasia is indeed possible, but should ultimately be considered irrational. Using Plato’s conception of the divided soul in the *Republic* as a basis for my own interpretation, I suggest that in order to reach a proper understanding of akrasia we should take into account the possibility of mental fragmentation, and I intend to demonstrate how, within the fragmented mind, akratic action is impossible. In this paper I will clarify the particular phenomenon which I understand ‘akrasia’ to indicate, discuss Plato’s and Davidson’s contributions to the dialogue concerning this particular phenomenon, propose a schema for fragmentation that I believe appropriately accounts for human cognition, demonstrate why this schema renders akrasia impossible, and present reasons why fragmentation, rather than akrasia, is a more appropriate explanation of the behavior of individuals that we are tempted to describe as weak-willed.

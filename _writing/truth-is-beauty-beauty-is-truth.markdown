@@ -1,10 +1,10 @@
 ---
 title: Truth is Beauty, Beauty is Truth?
 date: 2016-02-10 13:51:00 -05:00
-layout: post
 tags:
 - poetry
 - love
+layout: post
 ---
 
 It is beautiful  
