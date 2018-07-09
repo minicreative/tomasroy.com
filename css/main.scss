@@ -60,11 +60,24 @@ body {font-family:'Avenir', 'Helvetica', 'Arial', sans-serif; font-size:16px;
 	line-height:1.2; font-weight:400; color:$text;}
 em {font-weight:400; font-style:italic;}
 b {font-weight:700;}
-h1 {font-size:36px; line-height:1.2;}
-h2 {font-size:24px;}
-h3 {font-size:18px;}
+h1 {
+	font-size:36px; line-height:1.2; 
+	@include breakpoint(xs) {font-size:30px;}
+}
+h2 {
+	font-size:24px;
+	@include breakpoint(xs) {font-size:20px;}
+}
+h3 {
+	font-size:18px;
+	@include breakpoint(xs) {font-size:16px;}
+}
 a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
 .detail {color:$text_subtle; margin-top:8px;}
+.pagetitle:before {
+	content:""; float:right; width:150px; height:30px;
+	@include breakpoint(xs) {width:30px;}
+}
 
 // Basic Layout Elements ========================================================
 
@@ -94,7 +107,8 @@ header {
 }
 
 .content {
-	@include row; font-size:18px; font-weight:300; line-height:1.5;
+	@include row; font-size:18px; font-weight:300; line-height:1.6;
+	@include breakpoint(xs) {font-size:16px; line-height:1.5;}
 }
 
 .post-item {
@@ -103,6 +117,14 @@ header {
 	.title {font-size:20px; font-weight:500;}
 	.detail {margin-top:0px; font-size:14px;}
 	.description {margin-top:10px;}
+}
+
+.tags {
+	margin:10px 0px -10px;
+	span {display:inline-block; margin-right:10px; margin-bottom:10px; padding:4px 6px; line-height:1;
+		border:1px solid $subtle_; font-size:13px; @include border-radius(2px);}
+	span:hover, span.active {background:$subtle;}
+	a {border:0px;}
 }
 
 .contact-item {
@@ -118,13 +140,8 @@ footer {
 }
 
 // Page-specific Styles ========================================================
-.content.home {font-size:22px;}
-.content.post {
-	.comments {
-		border-top:1px solid $subtle; padding-top:$pad; margin-top:$pad+20px;
-		@include breakpoint(s) {margin-top:$pad;}
-		h2 {margin-bottom:10px;}
-	}
+.home {
+	.content {font-size:22px;}
 }
 
 // Imports =====================================================================

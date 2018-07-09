@@ -2,6 +2,9 @@
 title: Truth is Beauty, Beauty is Truth?
 date: 2016-02-10 13:51:00 -05:00
 layout: post
+tags:
+- poetry
+- love
 ---
 
 It is beautiful  
@@ -22,7 +25,7 @@ to the breast of the same mother
 whom my motor actively suffocates,  
 destroying a world  
 that to them might never be.  
-  
+
 It is beautiful  
 to sneak from my room  
 at 5:30 on a Sunday morning  
@@ -42,7 +45,7 @@ who must wince at the breath of trust she breathed
 as it howls icily back through the front door   
 left ajar, and choke at reek of danger   
 which she smells filling the vacant space.  
-  
+
 It is beautiful  
 to see your legs curled towards me  
 to press my nose into the place  
@@ -57,7 +60,7 @@ and I may fail to realize
 that standing next to you and gazing  
 into the world as you perceive it  
 would be the far greater beauty.  
-  
+
 It is beautiful  
 to hear you say I love you  
 but it is true  
@@ -67,7 +70,7 @@ not because they are
 beautiful  
 but because they are   
 true.  
-  
+
 Imagine -   
 an other stands alone, wrapped in a beautiful painting  
 unable to move, see, smell, or breathe  
@@ -75,6 +78,6 @@ the seeker of beauty will see the painting
 and gaze, himself satisfied  
 the seeker of truth will first wish to peek below  
 after which the other can be satisfied  
-  
+
 Perhaps then the two can more truly seek beauty  
 together.
