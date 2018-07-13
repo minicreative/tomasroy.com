@@ -40,6 +40,8 @@
             });
 
             // Get location from server
+            locationValue = $("#location");
+            locationNote = $("#locationNote");
             locationValue.text("Loading...");
             $.ajax({
                 url: "http://api.tomasroy.com/mississippi/latestLocation",
@@ -91,8 +93,6 @@
 
             // Get values to update
             dayValue = $("#day");
-            locationValue = $("#location");
-            locationNote = $("#locationNote");
             bookValue = $("#book");
             bookNote = $("#bookNote");
 
