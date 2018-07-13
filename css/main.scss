@@ -8,7 +8,15 @@
 @mixin box-sizing($type) {-webkit-box-sizing: $type; -moz-box-sizing: $type; box-sizing: $type;}
 @mixin animate($animation, $speed) {-webkit-animation-duration:$speed; animation-duration:$speed;
     -webkit-animation-fill-mode:both; animation-fill-mode:both;
-    -webkit-animation-name:$animation; animation-name:$animation;}
+	-webkit-animation-name:$animation; animation-name:$animation;}
+@mixin noselect() {
+		-webkit-touch-callout: none; /* iOS Safari */
+		  -webkit-user-select: none; /* Safari */
+		   -khtml-user-select: none; /* Konqueror HTML */
+			 -moz-user-select: none; /* Firefox */
+			  -ms-user-select: none; /* Internet Explorer/Edge */
+				  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
 
 // Resets and Universal Classes ================================================
 html, body {margin:0px; padding:0px; width:100%; overflow-x: hidden !important;}
@@ -67,8 +75,8 @@ h1 {
 	@include breakpoint(xs) {font-size:30px;}
 }
 h2 {
-	font-size:20px; line-height:1.2; font-weight:400; margin-top:10px;
-	@include breakpoint(xs) {font-size:18px;}
+	font-size:24px; line-height:1.2; font-weight:400; margin-top:10px;
+	@include breakpoint(xs) {font-size:22px;}
 }
 a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
 .detail {color:$text_subtle; margin-top:8px;}
@@ -187,8 +195,31 @@ body.mississippi {
 		}
 		#day {font-size:46px; line-height:1;}
 	}
+	.archives {
+		@include row; @include rowpad;
+		border-top:1px solid $subtle_;
+		.archive {
+			@include row;
+			& > .title {
+				font-size:18px; font-weight:300; @include noselect; cursor:pointer;
+				&:after {content:"\2193"; display:inline-block; margin-left:15px; margin-top:-2px; vertical-align:top;}
+			}
+			.list {
+				display:none; margin-top:20px;
+				.item {
+					margin-top:20px;
+					.title {font-weight:500;}
+					.note {font-size:14px; margin-top:6px;}
+					.time {font-size:13px; margin-top:4px;}
+				}
+			}
+			&.expanded {
+				& > .title:after {content:"\2191";}
+				.list {display:block;}
+			}
+		}
+	}
 	#map {@include row; width:100%; height:320px;}
-	footer {margin-top:0px;}
 }
 
 // Imports =====================================================================
