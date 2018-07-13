@@ -183,9 +183,11 @@ body.mississippi {
 			display:inline-block; vertical-align:top; margin-bottom:20px; margin-right:$pad;
 			.title {font-size:13px; text-transform:uppercase; margin-bottom:6px;}
 			.value {font-size:20px; font-weight:500;}
+			.note {font-size:12px; margin-top:4px;}
 		}
+		#day {font-size:46px; line-height:1;}
 	}
-	#map {@include row; width:100%; height:480px;}
+	#map {@include row; width:100%; height:320px;}
 	footer {margin-top:0px;}
 }
 

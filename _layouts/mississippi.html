@@ -12,6 +12,7 @@
             <div class="stat">
                 <div class="title">{{ stat.title }}</div>
                 <div class="value" id="{{ stat.id }}"></div>
+                {% if stat.hasNote %}<div class="note" id="{{ stat.id }}Note"></div>{% endif %}
             </div>
         {% endfor %}
         </div>
@@ -21,7 +22,13 @@
     <script type="text/javascript">
 
         // Initialize variables
-        var map, locationDiv, dayDiv, bookDiv;
+        var map, dayValue, locationValue, locationNote, bookValue, bookNote;
+
+        // Update note element with timestamp
+        function updateNoteWithTime (element, time) {
+            var timestring = moment(time, "X").fromNow();
+            element.text("Updated "+timestring+" via SMS");
+        }
 
         // Setup function for Google Maps
         function initMap() {
@@ -33,6 +40,7 @@
             });
 
             // Get location from server
+            locationValue.text("Loading...");
             $.ajax({
                 url: "http://api.tomasroy.com/mississippi/latestLocation",
                 dataType: "json",
@@ -66,35 +74,43 @@
                                 if (result.address_components[i].types[0] == "administrative_area_level_1")
                                     string += ", "+result.address_components[i].short_name;
                             }
-                            locationDiv.append(string);
+                            locationValue.text(string);
                         } 
                         
-                        else locationDiv.append(latitude+" / "+longitude);
+                        else locationValue.text(latitude+" / "+longitude);
                     });
+
+                    // Update note with time
+                    updateNoteWithTime(locationNote, data.location.time);
                 },
             });
         }
 
+        // Make changes when ready
         $(document).ready(function () {
 
             // Get values to update
-            locationDiv = $("#location");
-            dayDiv = $("#day");
-            bookDiv = $("#book");
+            dayValue = $("#day");
+            locationValue = $("#location");
+            locationNote = $("#locationNote");
+            bookValue = $("#book");
+            bookNote = $("#bookNote");
 
             // Get book from server
+            bookValue.text("Loading...");
             $.ajax({
                 url: "http://api.tomasroy.com/mississippi/latestBook",
                 dataType: "json",
                 success: function (data) {
-                    bookDiv.append(data.book.title);
+                    bookValue.text(data.book.title);
+                    updateNoteWithTime(bookNote, data.book.time);
                 },
             });
 
             // Set date
             let start = moment("2018-08-06", "YYYY-MM-DD");
             let now = moment();
-            dayDiv.append(now.diff(start, "days"));
+            dayValue.text(now.diff(start, "days"));
 
         });
     </script>
