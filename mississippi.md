@@ -5,7 +5,7 @@ layout: mississippi
 stats:
 - title: Day
   id: day
-- title: Last Camp
+- title: Location
   id: location
   hasNote: true
 - title: Currently Reading
