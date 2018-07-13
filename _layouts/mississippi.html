@@ -21,14 +21,14 @@
     <script type="text/javascript">
 
         // Initialize variables
-        var map;
+        var map, locationDiv, dayDiv, bookDiv;
 
         // Setup function for Google Maps
         function initMap() {
 
             // Initialize map
             map = new google.maps.Map(document.getElementById('map'), {
-                mapCenter: new google.maps.LatLng(44.9706756,-93.3315183),
+                mapCenter: new google.maps.LatLng(44.9706756,-93.3315183), // Minneapolis, MN
                 zoom: 15
             });
 
@@ -37,9 +37,40 @@
                 url: "http://api.tomasroy.com/mississippi/latestLocation",
                 dataType: "json",
                 success: function (data) {
+
+                    // Get center based on coordinates
                     var latitude = data.location.lat;
                     var longitude = data.location.long;
                     var mapCenter = new google.maps.LatLng(latitude,longitude);
+                    map.panTo(mapCenter);
+
+                    // Reverse geocode cordinates
+                    var geocoder = new google.maps.Geocoder;
+                    geocoder.geocode({'location': mapCenter}, function(results, status) {
+
+                        // Upon success...
+                        if (status === 'OK') {
+
+                            // Add marker
+                            var marker = new google.maps.Marker({
+                                position: mapCenter,
+                                map: map
+                            });
+
+                            // Display locality
+                            var result = results[0];
+                            var string = "";
+                            for (var i in result.address_components) {
+                                if (result.address_components[i].types[0] == "locality") 
+                                    string += result.address_components[i].long_name;
+                                if (result.address_components[i].types[0] == "administrative_area_level_1")
+                                    string += ", "+result.address_components[i].short_name;
+                            }
+                            locationDiv.append(string);
+                        } 
+                        
+                        else locationDiv.append(latitude+" / "+longitude);
+                    });
                 },
             });
         }
@@ -47,9 +78,9 @@
         $(document).ready(function () {
 
             // Get values to update
-            var locationDiv = $("#location");
-            var dayDiv = $("#day");
-            var bookDiv = $("#book");
+            locationDiv = $("#location");
+            dayDiv = $("#day");
+            bookDiv = $("#book");
 
             // Get book from server
             $.ajax({
@@ -63,7 +94,7 @@
             // Set date
             let start = moment("2018-08-06", "YYYY-MM-DD");
             let now = moment();
-            dayDiv.append(start.diff(now, "days"));
+            dayDiv.append(now.diff(start, "days"));
 
         });
     </script>
