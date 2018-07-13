@@ -1,0 +1,73 @@
+{% include head.html %}
+
+    <div class="content">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>    
+
+    <div class="stats">
+        <div class="container">
+        {% for stat in page.stats %}
+            <div class="stat">
+                <div class="title">{{ stat.title }}</div>
+                <div class="value" id="{{ stat.id }}"></div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    <div id="map"></div>
+
+    <script type="text/javascript">
+
+        // Initialize variables
+        var map;
+
+        // Setup function for Google Maps
+        function initMap() {
+
+            // Initialize map
+            map = new google.maps.Map(document.getElementById('map'), {
+                mapCenter: new google.maps.LatLng(44.9706756,-93.3315183),
+                zoom: 15
+            });
+
+            // Get location from server
+            $.ajax({
+                url: "http://api.tomasroy.com/mississippi/latestLocation",
+                dataType: "json",
+                success: function (data) {
+                    var latitude = data.location.lat;
+                    var longitude = data.location.long;
+                    var mapCenter = new google.maps.LatLng(latitude,longitude);
+                },
+            });
+        }
+
+        $(document).ready(function () {
+
+            // Get values to update
+            var locationDiv = $("#location");
+            var dayDiv = $("#day");
+            var bookDiv = $("#book");
+
+            // Get book from server
+            $.ajax({
+                url: "http://api.tomasroy.com/mississippi/latestBook",
+                dataType: "json",
+                success: function (data) {
+                    bookDiv.append(data.book.title);
+                },
+            });
+
+            // Set date
+            let start = moment("2018-08-06", "YYYY-MM-DD");
+            let now = moment();
+            dayDiv.append(start.diff(now, "days"));
+
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcqpBsZtl9bSzu7P6a0WVEFbI4w77bavM&callback=initMap&libraries=places" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+
+{% include foot.html %}

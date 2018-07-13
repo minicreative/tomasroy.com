@@ -175,6 +175,17 @@ body.project {
 	.screen {margin-top:20px; max-height:420px;}
 	footer {margin-top:0px;}
 }
+body.mississippi {
+	#corner {display:none;}
+	.stats {
+		@include row; padding:$pad 0px; background:$subtle;
+		.stat {
+			display:inline-block; vertical-align:top; margin-bottom:20px; margin-right:20px;
+			.title {font-size:13px; text-transform:uppercase;}
+		}
+	}
+	#map {width:100%; height:480px;}
+}
 
 // Imports =====================================================================
 @import "fonts";
