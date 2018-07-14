@@ -196,8 +196,7 @@ body.mississippi {
 		#day {font-size:46px; line-height:1;}
 	}
 	.archives {
-		@include row; @include rowpad;
-		border-top:1px solid $subtle_;
+		@include row;
 		.archive {
 			@include row;
 			& > .title {
