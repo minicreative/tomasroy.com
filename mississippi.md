@@ -3,11 +3,24 @@ title: I'm canoeing the Mississippi...
 url: "/mississippi"
 layout: mississippi
 stats:
-- title: Last Camp
-  id: location
 - title: Day
   id: day
+- title: Location
+  id: location
+  hasNote: true
 - title: Currently Reading
   id: book
+  hasNote: true
 ---
 
+## Why I'm taking this trip
+
+I graduated from UNC Chapel Hill in May of this year. When I finished high school, I was convinced that institutional education was the tool of an authority I didn't want to respect, a way to further coddle affluent children, the home of the worst kind of elitism, and a waste of time and money. While this understanding is in many ways misled, because college does provides opportunities to people that are incredibly important and meaningful, I felt stubbornly convinced of this perspective. Because I was privileged enough to be able to graduate without debt and get into a good school, I decided to enroll, ultimately to appease my mother, a reason which I think is justified (she deserved appeasement).
+
+My college experience was predominantly wonderful. I learned perspectives about the world that I am exceedingly grateful for, I met a set of incredibly wonderful friends, I was given the freedom to explore sexuality and critique my own firmly held beliefs, I was connected with a team of creative people who provided me a space to learn a ton about software development and entrepreneurship, I was introduced to a wonderful local community in a state I would have likely given up on, and I had the time and resources to buy a car and live in it for 5 months while driving across the country, which was perhaps the most educational thing I've done in my life up to this point. Perhaps the most important element of my time in college was my realization of the beauty of steady intentional relationships (community) and my introduction to ways of building these: common location, communal living, food, pets, shared intellectual interests, common purpose.
+
+Despite all of these factors, I prepared to graudated college with a heavy weight on my shoulders. I began to realize the irony of my situation: I learned about community while attending an institution which is essentially the most powerful proponent of an individualism that exists in the modern world – "with a prestigious college degree, you can do anything *you* want to" (that was the idea, and it seemed like most of the people at my school, including myself, subscribed to it). This began to make my relationships, especially my intamite, committed ones, exceedingly hard to grapple with – it seemed very few of us could count on one another to stick around after we graduated. Because of my skepticism of the institution I was a part of
+
+While I'm especially grateful to my college experience for it's negative contributions to my understanding (we *shouldn't* talk about universal truths as if we know what they are, we *shouldn't* treat gender in the way that we do, we *shouldn't* treat current class & race relations as if they're satisfactory, we *shouldn't* treat capitalism as a default), I am exceedingly skeptical of the positive understandings I was introduced to at my university. I am not convinced that the programe of institutional academics is informed by the reality of the world and of the people in it, I am not convinced that individuals who receive funding from either public or private grants have the legitimate ability to critique capitalism coherently, I am not convinced that the majority of departments are going anywhere meaningful with their intellectual enquiry, and I am especially saddened by the reality that successful "humanities" majors will end up spending the majority of their lives in one of the most homogenous enviornments possible. With an awareness of the ubiquity of this understanding, I am also unsatisfied with the reality of censorship within in the modern institution – to a very real extent people are no longer able to be honest in conversation, and I find the supression of honesty especially prohibitive to the personal growth that is required for any real social change.
+
+While I feel a certain amount of self-disgust for my pessimism about a entity that truly did give me (and many others) so much to be greatful for, by the end of it I knew I needed a way to separate myself from it in some meaningful way. To depart from a species of close-minded liberalism that was a part of my college experience, I figured I'd spend a lengthy amount of time in an envrionment that was likely the opposite of this. To depart from knowing and seeing so many people I loved so often, I figured I'd spend a lengthy amount of time very much alone. To depart from the feeling of pressure to be productive intellectually, or to build my resume, I figured I'd spend a lengthy amount of time simply waking up and cooking and excersizing each day. To depart from an envrionment where I needed to look at a screen every day, I figured I'd spend a lengthy amount of time without any connectivity whatsoever (which is why I built a system to update my friends and family using SMS) These desires led me to begin researching the viability of this trip, and my plan was born.

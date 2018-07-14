@@ -12,19 +12,49 @@
             <div class="stat">
                 <div class="title">{{ stat.title }}</div>
                 <div class="value" id="{{ stat.id }}"></div>
+                {% if stat.hasNote %}<div class="note" id="{{ stat.id }}Note"></div>{% endif %}
             </div>
         {% endfor %}
         </div>
     </div>
     <div id="map"></div>
 
+    <div class="content">
+        <div class="container">
+            {{ page.content | markdownify }}
+        </div>
+    </div>
+
+    <div class="archives">
+        <div class="container">
+            <h2>Logs</h2>
+            <div class="archive">
+                <div class="title">Locations</div>
+                <div class="list" id="locationArchive"></div>
+            </div>
+            <div class="archive">
+                <div class="title">Books</div>
+                <div class="list" id="bookArchive"></div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript">
 
         // Initialize variables
-        var map, locationDiv, dayDiv, bookDiv;
+        var map, dayValue, locationValue, locationNote, bookValue, bookNote, locationArchive, bookArchive;
+
+        // Update note element with timestamp
+        function updateNoteWithTime (element, time) {
+            var timestring = moment(time, "X").fromNow();
+            element.text("Updated "+timestring+" via SMS");
+        }
 
         // Setup function for Google Maps
         function initMap() {
+
+            // Initialize geocoder
+            var geocoder = new google.maps.Geocoder;
 
             // Initialize map
             map = new google.maps.Map(document.getElementById('map'), {
@@ -33,6 +63,9 @@
             });
 
             // Get location from server
+            locationValue = $("#location");
+            locationNote = $("#locationNote");
+            locationValue.text("Loading...");
             $.ajax({
                 url: "http://api.tomasroy.com/mississippi/latestLocation",
                 dataType: "json",
@@ -45,58 +78,100 @@
                     map.panTo(mapCenter);
 
                     // Reverse geocode cordinates
-                    var geocoder = new google.maps.Geocoder;
                     geocoder.geocode({'location': mapCenter}, function(results, status) {
-
-                        // Upon success...
                         if (status === 'OK') {
-
-                            // Add marker
                             var marker = new google.maps.Marker({
                                 position: mapCenter,
                                 map: map
                             });
-
-                            // Display locality
-                            var result = results[0];
-                            var string = "";
-                            for (var i in result.address_components) {
-                                if (result.address_components[i].types[0] == "locality") 
-                                    string += result.address_components[i].long_name;
-                                if (result.address_components[i].types[0] == "administrative_area_level_1")
-                                    string += ", "+result.address_components[i].short_name;
-                            }
-                            locationDiv.append(string);
                         } 
-                        
-                        else locationDiv.append(latitude+" / "+longitude);
                     });
+
+                    // Update stat
+                    locationValue.text(data.location.name);
+                    updateNoteWithTime(locationNote, data.location.time);
+                },
+            });
+
+             // Get location archive from server
+            var locationArchive = $("#locationArchive");
+            $.ajax({
+                url: "http://api.tomasroy.com/mississippi/allLocations",
+                dataType: "json",
+                success: function (data) {
+                    for (var i in data.locations) {
+                        var item = $("<div class='item'></div>");
+                        var title = $("<div class='title'></div>");
+                        var note = $("<div class='note'></div>");
+                        var time = $("<div class='time'></div>");
+                        title.text(data.locations[i].name);
+                        item.append(title);
+                        if (data.locations[i].note) {
+                            note.text(data.locations[i].note);
+                            item.append(note);
+                        }
+                        time.text(moment(data.locations[i].time, "X").format("MMMM D, YYYY h:mma"));
+                        item.append(time);
+                        locationArchive.append(item);
+                    }
                 },
             });
         }
 
+        // Make changes when ready
         $(document).ready(function () {
 
             // Get values to update
-            locationDiv = $("#location");
-            dayDiv = $("#day");
-            bookDiv = $("#book");
+            dayValue = $("#day");
+            bookValue = $("#book");
+            bookNote = $("#bookNote");
+            locationArchive = $("#locationArchive");
+            bookArchive = $("#bookArchive");
 
-            // Get book from server
+            // Get latest book from server
+            bookValue.text("Loading...");
             $.ajax({
                 url: "http://api.tomasroy.com/mississippi/latestBook",
                 dataType: "json",
                 success: function (data) {
-                    bookDiv.append(data.book.title);
+                    bookValue.text(data.book.title);
+                    updateNoteWithTime(bookNote, data.book.time);
+                },
+            });
+
+            // Get book archive from server
+            $.ajax({
+                url: "http://api.tomasroy.com/mississippi/allBooks",
+                dataType: "json",
+                success: function (data) {
+                    for (var i in data.books) {
+                        var item = $("<div class='item'></div>");
+                        var title = $("<div class='title'></div>");
+                        var time = $("<div class='time'></div>");
+                        title.text(data.books[i].title);
+                        time.text(moment(data.books[i].time, "X").format("MMMM D, YYYY"));
+                        item.append(title);
+                        item.append(time);
+                        bookArchive.append(item);
+                    }
                 },
             });
 
             // Set date
             let start = moment("2018-08-06", "YYYY-MM-DD");
             let now = moment();
-            dayDiv.append(now.diff(start, "days"));
+            dayValue.text(now.diff(start, "days"));
 
         });
+
+        // Setup archive functionality
+        $(".archive").each(function () {
+            $(this).find(".title").on("click", function () {
+                if ($(this).parent().hasClass("expanded")) $(this).parent().removeClass("expanded");
+                else $(this).parent().addClass("expanded");
+            });
+        });
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcqpBsZtl9bSzu7P6a0WVEFbI4w77bavM&callback=initMap&libraries=places" async defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
