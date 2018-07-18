@@ -3,8 +3,10 @@
 		<div class="title">{{ item.title }}</div>
 		<div class="detail">{{ item.date | date: "%B %Y" }} / {{ item.content | number_of_words }} words</div>
 		<div class="description">{{ item.content | strip_html | truncate: 150 }}</div>
+		{% if.item.tags.size > 0 %}
 		<div class="tags">
 			{% for tag in item.tags %}<a href="/writings.html?tag={{tag}}"><span class="{{ tag }}">{{ tag }}</span></a>{% endfor %}
 		</div>
+		{% endif %}
 	</div>
 </a>
