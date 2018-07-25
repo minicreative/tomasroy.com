@@ -5,7 +5,7 @@ layout: mississippi
 stats:
 - title: Day
   id: day
-- title: Location
+- title: Nearest Town
   id: location
   hasNote: true
 - title: Currently Reading

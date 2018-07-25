@@ -17,7 +17,8 @@
         {% endfor %}
         </div>
     </div>
-    <div id="map"></div>
+
+    <div id="map" style="display:none;"></div>
 
     <div class="content">
         <div class="container">
@@ -58,7 +59,7 @@
 
             // Initialize map
             map = new google.maps.Map(document.getElementById('map'), {
-                mapCenter: new google.maps.LatLng(44.9706756,-93.3315183), // Minneapolis, MN
+                // mapCenter: new google.maps.LatLng(44.9706756,-93.3315183), // Minneapolis, MN
                 zoom: 15
             });
 
@@ -70,6 +71,8 @@
                 url: "http://api.tomasroy.com/mississippi/latestLocation",
                 dataType: "json",
                 success: function (data) {
+
+                    /* Don't display map 
 
                     // Get center based on coordinates
                     var latitude = data.location.lat;
@@ -86,6 +89,8 @@
                             });
                         } 
                     });
+
+                    */
 
                     // Update stat
                     locationValue.text(data.location.name);
