@@ -1,7 +1,6 @@
 ---
 title: I'm canoeing the Mississippi...
 url: "/mississippi"
-layout: mississippi
 stats:
 - title: Day
   id: day
@@ -13,68 +12,76 @@ stats:
   hasNote: true
 days:
 - number: 0
-  date: August 9
+  date: 2018-08-09 00:00:00 -04:00
   start: 846.5
   stop: 844.4
   miles: 2.1
   towns: Minneapolis, MN
 - number: 1
-  date: August 10
+  date: 2018-08-10 00:00:00 -04:00
   start: 844.4
-  stop: 827.0
+  stop: 827
   miles: 17.4
   towns: St. Paul, MN
 - number: 2
-  date: August 11
-  start: 827.0
+  date: 2018-08-11 00:00:00 -04:00
+  start: 827
   stop: 801.6
   miles: 25.4
   towns: Hastings, MN
 - number: 3
-  date: August 12
+  date: 2018-08-12 00:00:00 -04:00
   start: 801.6
   stop: 784.8
   miles: 16.8
   towns: Red Wing, MN
   note: Free book from Rick!
 - number: 4
-  date: August 13
+  date: 2018-08-13 00:00:00 -04:00
   start: 784.8
   stop: 764.5
   miles: 20.3
   towns: Lake City, MN
   note: Crossed Lake Pepin
 - number: 5
-  date: August 14
+  date: 2018-08-14 00:00:00 -04:00
   start: 764.5
   stop: 737.5
-  miles: 27.0
+  miles: 27
 - number: 6
-  date: August 15
+  date: 2018-08-15 00:00:00 -04:00
   start: 737.5
-  stop: 726.0
+  stop: 726
   miles: 11.5
   towns: Winona, MN
   note: Couchsurfed with Mah
 - number: 7
-  date: August 16
-  start: 726.0
+  date: 2018-08-16 00:00:00 -04:00
+  start: 726
   stop: 706.5
   miles: 19.5
   towns: Winona, MN
   note: Met fellow paddlers!
 - number: 8
-  date: August 17
+  date: 2018-08-17 00:00:00 -04:00
   start: 706.5
   stop: 692.5
-  miles: 14.0
+  miles: 14
   towns: La Crosse, WI
   note: Lots of free beer
 - number: 9
-  date: August 18
+  date: 2018-08-18 00:00:00 -04:00
   start: 692.5
-  stop: 670.0
+  stop: 670
   miles: 22.5
+- number: 10
+  date: 2018-08-18 00:00:00 -04:00
+  start: 670
+  stop: 648.5
+  miles: 22.5
+  towns: Lansing, IA
+  note: 
+layout: mississippi
 ---
 
 ## Why I'm taking this trip
