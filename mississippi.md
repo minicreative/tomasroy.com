@@ -11,6 +11,70 @@ stats:
 - title: Currently Reading
   id: book
   hasNote: true
+days:
+- number: 0
+  date: August 9
+  start: 846.5
+  stop: 844.4
+  miles: 2.1
+  towns: Minneapolis, MN
+- number: 1
+  date: August 10
+  start: 844.4
+  stop: 827.0
+  miles: 17.4
+  towns: St. Paul, MN
+- number: 2
+  date: August 11
+  start: 827.0
+  stop: 801.6
+  miles: 25.4
+  towns: Hastings, MN
+- number: 3
+  date: August 12
+  start: 801.6
+  stop: 784.8
+  miles: 16.8
+  towns: Red Wing, MN
+  note: Free book from Rick!
+- number: 4
+  date: August 13
+  start: 784.8
+  stop: 764.5
+  miles: 20.3
+  towns: Lake City, MN
+  note: Crossed Lake Pepin
+- number: 5
+  date: August 14
+  start: 764.5
+  stop: 737.5
+  miles: 27.0
+- number: 6
+  date: August 15
+  start: 737.5
+  stop: 726.0
+  miles: 11.5
+  towns: Winona, MN
+  note: Couchsurfed with Mah
+- number: 7
+  date: August 16
+  start: 726.0
+  stop: 706.5
+  miles: 19.5
+  towns: Winona, MN
+  note: Met fellow paddlers!
+- number: 8
+  date: August 17
+  start: 706.5
+  stop: 692.5
+  miles: 14.0
+  towns: La Crosse, WI
+  note: Lots of free beer
+- number: 9
+  date: August 18
+  start: 692.5
+  stop: 670.0
+  miles: 22.5
 ---
 
 ## Why I'm taking this trip

@@ -20,6 +20,33 @@
 
     <div id="map"></div>
 
+ 	<div class="days">
+		<div class="container">
+			<table cellspacing="0">
+				<tr class="head">
+					<td>Day</td>
+					<td>Date</td>
+					<td>Start</td>
+					<td>Stop</td>
+					<td>Miles</td>
+					<td>Towns Visited</td>
+					<td>Note</td>
+				</tr>
+				{% for day in page.days %}
+				<tr>
+					<td>{{ day.number }}</td>
+					<td>{{ day.date }}</td>
+					<td>{{ day.start }}</td>
+					<td>{{ day.stop }}</td>
+					<td>{{ day.miles }}</td>
+					<td>{{ day.towns }}</td>
+					<td>{{ day.note }}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+
     <div class="content">
         <div class="container">
             {{ page.content | markdownify }}

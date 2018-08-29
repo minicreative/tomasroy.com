@@ -195,6 +195,12 @@ body.mississippi {
 		}
 		#day {font-size:46px; line-height:1;}
 	}
+	.days {
+		@include row;
+		table {width:100%;}
+		td {padding:10px 0px; border-top:1px solid $subtle_;}
+		tr.head td {font-weight:bold; border-top:0px;}
+	}
 	.archives {
 		@include row;
 		.archive {
