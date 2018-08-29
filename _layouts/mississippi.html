@@ -35,7 +35,7 @@
 				{% for day in page.days %}
 				<tr>
 					<td>{{ day.number }}</td>
-					<td>{{ day.date }}</td>
+					<td>{{ day.date | date: "%b %d" }}</td>
 					<td>{{ day.start }}</td>
 					<td>{{ day.stop }}</td>
 					<td>{{ day.miles }}</td>
