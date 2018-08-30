@@ -130,6 +130,27 @@ days:
   miles: 20
   towns: Fulton, IL
   note: 
+- number: 18
+  date: 2018-08-27 00:00:00 -04:00
+  start: 519.5
+  stop: 503.5
+  miles: 16
+  towns: Camanche, IA
+  note: 18 mph winds!
+- number: 19
+  date: 2018-08-28 00:00:00 -04:00
+  start: 503.5
+  stop: 492.5
+  miles: 11
+  towns: Moline, IL
+  note: BIG storm! Couchsurfed with Rex
+- number: 20
+  date: 2018-08-29 00:00:00 -04:00
+  start: 
+  stop: 
+  miles: 0
+  towns: Bettendorf, IA
+  note: Errands day
 layout: mississippi
 ---
 
