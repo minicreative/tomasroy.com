@@ -81,6 +81,20 @@ days:
   miles: 22.5
   towns: Lansing, IA
   note: 
+- number: 11
+  date: 2018-08-20 00:00:00 -04:00
+  start: 647.5
+  stop: 635.5
+  miles: 12
+  towns: Prairie du Chien, WI
+  note: Couchsurfed with Greg in cheese factory!
+- number: 12
+  date: 2018-08-21 00:00:00 -04:00
+  start: 635.5
+  stop: 614.5
+  miles: 21
+  towns: Prairie du Chien, WI
+  note: Classical music day
 layout: mississippi
 ---
 
