@@ -113,7 +113,7 @@ days:
   date: 2018-08-24 00:00:00 -04:00
   start: 
   stop: 
-  miles: O
+  miles: 0
   towns: 
   note: Reading day
 - number: 16
