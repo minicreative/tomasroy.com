@@ -30,7 +30,7 @@
 					<td>Stop</td>
 					<td>Miles</td>
 					<td>Towns Visited</td>
-					<td>Note</td>
+					<td class="notecol">Note</td>
 				</tr>
 				{% for day in page.days %}
 				<tr>
@@ -40,7 +40,7 @@
 					<td>{{ day.stop }}</td>
 					<td>{{ day.miles }}</td>
 					<td>{{ day.towns }}</td>
-					<td>{{ day.note }}</td>
+					<td class="notecol">{{ day.note }}</td>
 				</tr>
 				{% endfor %}
 			</table>

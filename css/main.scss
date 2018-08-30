@@ -200,6 +200,7 @@ body.mississippi {
 		table {width:100%;}
 		td {padding:10px 0px; border-top:1px solid $subtle_;}
 		tr.head td {font-weight:bold; border-top:0px;}
+		td.notecol {width:160px; @include breakpoint(s) {display:none;}}
 	}
 	.archives {
 		@include row;
