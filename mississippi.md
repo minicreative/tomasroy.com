@@ -95,6 +95,41 @@ days:
   miles: 21
   towns: Prairie du Chien, WI
   note: Classical music day
+- number: 13
+  date: 2018-08-22 00:00:00 -04:00
+  start: 614.5
+  stop: 583
+  miles: 31.5
+  towns: 
+  note: 
+- number: 14
+  date: 2018-08-23 00:00:00 -04:00
+  start: 583
+  stop: 574.5
+  miles: 8.5
+  towns: Dubuque, IA
+  note: Coffee shop day
+- number: 15
+  date: 2018-08-24 00:00:00 -04:00
+  start: 
+  stop: 
+  miles: O
+  towns: 
+  note: Reading day
+- number: 16
+  date: 2018-08-25 00:00:00 -04:00
+  start: 574.5
+  stop: 539.5
+  miles: 35
+  towns: Bellevue, IA
+  note: Mint chocolate chip icecream
+- number: 17
+  date: 2018-08-25 00:00:00 -04:00
+  start: 539.5
+  stop: 519.5
+  miles: 20
+  towns: Fulton, IL
+  note: 
 layout: mississippi
 ---
 
