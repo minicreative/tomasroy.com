@@ -171,7 +171,7 @@ days:
   stop: 406.5
   miles: 18
   towns: Pontoosuc, IL
-  note: Boat towed & flooded
+  note: Boat towed (& flooded), Iowa friends
 - number: 24
   date: 2018-09-02 00:00:00 -04:00
   start: 388.5
@@ -211,14 +211,14 @@ days:
   date: 2018-09-07 00:00:00 -04:00
   start: 
   stop: 
-  miles: 
+  miles: 0
   towns: Hannibal, MO
   note: 'Rain day #1'
 - number: 30
   date: 2018-09-08 00:00:00 -04:00
   start: 
   stop: 
-  miles: 
+  miles: 0
   towns: Hannibal, MO
   note: 'Rain day #2'
 layout: mississippi
