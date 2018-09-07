@@ -68,7 +68,7 @@ days:
   stop: 692.5
   miles: 14
   towns: La Crosse, WI
-  note: Lots of free beer
+  note: 'Wrote letter #1'
 - number: 9
   date: 2018-08-18 00:00:00 -04:00
   start: 692.5
@@ -206,21 +206,21 @@ days:
   stop: 301
   miles: 8
   towns: Hannibal, MO
-  note: Back to Hannibal!
+  note: 'Wrote letter #2'
 - number: 29
   date: 2018-09-07 00:00:00 -04:00
   start: 
   stop: 
   miles: 0
   towns: Hannibal, MO
-  note: 'Rain day #1'
+  note: Rain day
 - number: 30
   date: 2018-09-08 00:00:00 -04:00
   start: 
   stop: 
   miles: 0
   towns: Hannibal, MO
-  note: 'Rain day #2'
+  note: Rain day
 layout: mississippi
 ---
 
