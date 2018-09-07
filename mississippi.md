@@ -151,6 +151,76 @@ days:
   miles: 0
   towns: Bettendorf, IA
   note: Errands day
+- number: 21
+  date: 2018-08-30 00:00:00 -04:00
+  start: 480.5
+  stop: 461.5
+  miles: 19
+  towns: 
+  note: Met Chris from Fairport
+- number: 22
+  date: 2018-08-31 00:00:00 -04:00
+  start: 461.5
+  stop: 424.5
+  miles: 36
+  towns: Keithsburg, IL
+  note: 
+- number: 23
+  date: 2018-09-01 00:00:00 -04:00
+  start: 424.5
+  stop: 406.5
+  miles: 18
+  towns: Pontoosuc, IL
+  note: Boat towed & flooded
+- number: 24
+  date: 2018-09-02 00:00:00 -04:00
+  start: 388.5
+  stop: 376.5
+  miles: 12
+  towns: Nauvoo, IL
+  note: Camped with Dan & Terry
+- number: 25
+  date: 2018-09-03 00:00:00 -04:00
+  start: 376.5
+  stop: 356
+  miles: 20.5
+  towns: Keokuk, IA
+  note: Dinner with Mormon family
+- number: 26
+  date: 2018-09-04 00:00:00 -04:00
+  start: 356
+  stop: 324
+  miles: 32
+  towns: La Grange, MO
+  note: 
+- number: 27
+  date: 2018-09-05 00:00:00 -04:00
+  start: 324
+  stop: 309
+  miles: 15
+  towns: Hannibal, MO
+  note: Met Dave & Seth
+- number: 28
+  date: 2018-09-06 00:00:00 -04:00
+  start: 309
+  stop: 301
+  miles: 8
+  towns: Hannibal, MO
+  note: Back to Hannibal!
+- number: 29
+  date: 2018-09-07 00:00:00 -04:00
+  start: 
+  stop: 
+  miles: 
+  towns: Hannibal, MO
+  note: 'Rain day #1'
+- number: 30
+  date: 2018-09-08 00:00:00 -04:00
+  start: 
+  stop: 
+  miles: 
+  towns: Hannibal, MO
+  note: 'Rain day #2'
 layout: mississippi
 ---
 
