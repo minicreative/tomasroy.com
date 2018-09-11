@@ -2,8 +2,6 @@
 title: I'm canoeing the Mississippi...
 url: "/mississippi"
 stats:
-- title: Day
-  id: day
 - title: Nearest Town
   id: location
   hasNote: true
