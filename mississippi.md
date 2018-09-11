@@ -221,6 +221,20 @@ days:
   miles: 0
   towns: Hannibal, MO
   note: Rain day
+- number: 31
+  date: 2018-09-09 00:00:00 -04:00
+  start: 301
+  stop: 258.5
+  miles: 42.5
+  towns: Louisiana, MO
+  note: 
+- number: 32
+  date: 2018-09-10 00:00:00 -04:00
+  start: 258.5
+  stop: 233
+  miles: 25.5
+  towns: 
+  note: 
 layout: mississippi
 ---
 
