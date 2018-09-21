@@ -1,6 +1,5 @@
 ---
 title: Home
-published: false
 url: "/contact"
 layout: home
 ---
