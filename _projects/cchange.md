@@ -1,9 +1,14 @@
 ---
 title: "¢Change"
 position: 2
-description: A social sharing prototype which aims to help people to publicly support
-  the causes they care about and encourage their friends to do the same.
-primary_image: "/uploads/cchange.png"
+description: A social sharing prototype which aims to encourage people to publicly support
+  the causes they care about and nudge their friends to do the same.
+images:
+- image: "/uploads/cchange.png"
+  caption: 
+buttons:
+- name: View GitHub project
+  url: https://github.com/comp523-602
 layout: project
 ---
 
