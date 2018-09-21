@@ -180,8 +180,15 @@ body.project {
 	text-align:center;
 	#corner {display:none;}
 	header .navigation a {margin:0px 10px;}
-	.image {margin-top:20px; max-height:420px;}
-	footer {margin-top:0px;}
+	.screens {
+		margin:$pad 0px; overflow-x:auto; text-align:left;
+		.screen-item {
+			display:inline-block; margin-left:$pad; width:540px;
+			.screen {max-height:360px;}
+			.caption {display:block; margin-top:15px; font-size:12px; font-weight:300;}
+		}
+	}
+	.left-align {text-align:left;}
 }
 body.mississippi {
 	.stats {

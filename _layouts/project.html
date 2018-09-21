@@ -1,6 +1,6 @@
 {% include head.html %}
 
-	<div class="content project">
+	<div class="content">
 		<div class="container">
             <h1>{{ page.title }}</h1>
             <p>{{ page.description }}</p>
@@ -9,14 +9,22 @@
 				<a href="{{ button.url }}">{{ button.name }}</a>
 				{% endfor %}
 			</div>
-            <div class="screens">
-				{% for screen in page.screens %}
-				<div class="screen">
-					<img src="{{ screen.image }}" />
-					<span>{{ screen.caption }}</span>
-				</div>
-				{% endfor %}
+		</div>
+	</div>
+
+	<div class="screens">
+		{% for screen in page.screens %}
+		<div class="screen-item">
+			<div class="screen">
+				<img src="{{ screen.image }}" />
+				<span>{{ screen.caption }}</span>
 			</div>
+		</div>
+		{% endfor %}
+	</div>
+
+	<div class="content left-align">
+		<div class="container">
 			{{ page.content | markdownify }}
 		</div>
 	</div>
