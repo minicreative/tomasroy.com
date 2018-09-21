@@ -1,8 +1,8 @@
 ---
 title: "¢Change"
 position: 2
-description: A social sharing prototype which aims to encourage people to publicly support
-  the causes they care about and nudge their friends to do the same.
+description: A social sharing prototype which aims to encourage people to publicly
+  support the causes they care about and nudge their friends to do the same.
 images:
 - image: "/uploads/cchange.png"
   caption: 
