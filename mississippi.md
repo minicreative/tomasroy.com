@@ -233,6 +233,20 @@ days:
   miles: 25.5
   towns: 
   note: 
+- number: 33
+  date: 2018-09-11 00:00:00 -04:00
+  start: 233
+  stop: 214
+  miles: 19
+  towns: 
+  note: 
+- number: 34
+  date: 2018-09-12 00:00:00 -04:00
+  start: 214
+  stop: 179.5
+  miles: 34.5
+  towns: St. Louis, MO
+  note: Hashing with Mark!
 layout: mississippi
 ---
 
