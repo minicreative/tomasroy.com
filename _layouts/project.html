@@ -3,8 +3,21 @@
 	<div class="content project">
 		<div class="container">
             <h1>{{ page.title }}</h1>
-            <h2>{{ page.description }}</h2>
-            <div class="screen"><img src="{{ page.primary_image }}" /></div>
+            <p>{{ page.description }}</p>
+			<div class="buttons">
+				{% for button in page.buttons %}
+				<a href="{{ button.url }}">{{ button.name }}</a>
+				{% endfor %}
+			</div>
+            <div class="screens">
+				{% for screen in page.screens %}
+				<div class="screen">
+					<img src="{{ screen.image }}" />
+					<span>{{ screen.caption }}</span>
+				</div>
+				{% endfor %}
+			</div>
+			{{ page.content | markdownify }}
 		</div>
 	</div>
 	
