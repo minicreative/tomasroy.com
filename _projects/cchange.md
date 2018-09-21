@@ -1,5 +1,6 @@
 ---
 title: "¢Change"
+position: 1
 description: A social sharing prototype which aims to help people to publicly support
   the causes they care about and encourage their friends to do the same.
 order: 4
