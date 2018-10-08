@@ -5,7 +5,7 @@ layout: basic
 showTitle: true
 ---
 
-After the combined influence of *Into the Wild* and *On the Road*, by the time I was fifteen I was dreaming of ways to escape what I understood to be the suburban prison of my youth, and to put major stock in the idea that because people were good and comfort wasn't that important, travel was substantially more accessible than most people thought. Below is a somewhat complete log of my major forays into the world:
+After the combined influence of *Into the Wild* and *On the Road*, by the time I was fifteen I was dreaming of ways to escape what I understood to be the suburban prison of my youth, and to put major stock in the idea that because people were good and comfort wasn't that important, travel was substantially more accessible than most people thought. Below is a somewhat complete log of my more significant forays into the world:
 
 * In June 2012, I bought 4 Greyhound tickets up the east coast for myself and my friend Cameron using a PayPal debit card that gave me access to money I made by selling old toys on eBay. We stopped in Asheville, Charlottesville, DC and New York and finished the trip at a music festival on the Hudson River which we sailed out of on Pete Seeger's boat, the *Clearwater*.
 
