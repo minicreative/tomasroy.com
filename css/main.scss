@@ -99,6 +99,7 @@ a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
 	&.image-3 {background-image:url("/uploads/53.jpg");}
 	&.image-4 {background-image:url("/uploads/57.jpg");}
 }
+_:-ms-lang(x), #corner {display:none;}
 
 header {
 	margin-top:$pad; padding-bottom:20px; text-transform:lowercase;
