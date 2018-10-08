@@ -1,13 +1,6 @@
 ---
-title: I'm canoeing the Mississippi...
+title: Canoeing the Mississippi
 url: "/mississippi"
-stats:
-- title: Nearest Town
-  id: location
-  hasNote: true
-- title: Currently Reading
-  id: book
-  hasNote: true
 days:
 - number: 0
   date: 2018-08-09 00:00:00 -04:00

@@ -19,7 +19,7 @@
 		<script type="text/javascript" src="/js/main.js"></script>
 
 	</head>
-	<body class="{{ page.layout }}">
+	<body class="{{ page.layout }}{% if page.css %} {{ page.css }}{% endif %}">
 
 		<!-- Corner -->
 		<div id="corner"></div>
