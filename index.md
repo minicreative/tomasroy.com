@@ -1,8 +1,8 @@
 ---
 title: Home
 url: "/"
-layout: basic
 css: home
+layout: basic
 ---
 
 My name is Tomas (*toe-mus*)
@@ -11,6 +11,6 @@ I'm fascinated by the concept of truth, and I like to practice radical faith in 
 
 I am enamored with [travel](/travel.html), primarily because I believe [motion is the most effective path to truth](/writing/motion-as-the-most-effective-path-to-truth.html). I like to hitch-hike, talk to strangers, sit on city sidewalks, and climb mountains.
 
-I've spent a lot of time [writing code](/projects.html) because it's fun and a bit poetic and I can use it to make a living from almost anywhere.
+I've spent a lot of time [writing code](/code.html) because it's fun and a bit poetic and I can use it to make a living from almost anywhere.
 
 I grew up in Waxhaw, North Carolina and studied computer science and philosophy at UNC.
