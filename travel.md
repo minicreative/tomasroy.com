@@ -5,7 +5,7 @@ showTitle: true
 layout: basic
 ---
 
-After the combined influence of *Into the Wild* and *On the Road*, by the time I was fifteen I was dreaming of ways to escape what I understood to be the suburban prison of my youth, and to put major stock in the idea that because people are good and comfort isn't that important, travel is substantially more accessible than most people think. Below is a somewhat complete log of my more significant forays into the world:
+As a kid, due to the combined influence of stories like *Into the Wild* and *On the Road*, I began dreaming of ways to escape what I understood to be the suburban prison of my youth, and to put stock in the idea that because people are good and comfort isn't that important, travel is substantially more accessible than most people think. Once I got started travelling I couldn't stop. Below is a somewhat complete log of my more significant forays into the world:
 
 * In June 2012, I bought 4 Greyhound tickets up the east coast for myself and my friend Cameron. We stopped in Asheville, Charlottesville, DC and New York and finished the trip at a music festival on the Hudson River which we sailed out of on Pete Seeger's boat, the *Clearwater*.
 
@@ -13,9 +13,9 @@ After the combined influence of *Into the Wild* and *On the Road*, by the time I
 
 * In March 2014, I hiked El Camino de Santiago in northern Spain. 
 
-* In December 2015, Cameron and I drove a converted minivan to New Orleans and lived downtown for a couple of days. This trip was sandwiched by camping trips into the Blue Ridge Mountains in Tennessee and included stops in Grand Isle, LA and Birmingham, AL.
+* In December 2015, Cameron and I drove a converted minivan to New Orleans and lived downtown for several days. This trip was sandwiched by camping trips into the Blue Ridge Mountains in Tennessee and included stops in Grand Isle, LA and Birmingham, AL.
 
-* In January 2016, I dropped out of college three days before my classes started, sublet my room, put a mattress in the hobbling Honda Civic I bought the previous summer, and lived out of my car until my sister's graduation in May. This journey included a 5-week stint in New Orleans on an urban farming community in the Lower 9th, a week in Houston with the family of one of my clients, a week of backcountry camping in Yosemite, and a stint in Berkeley in which I lived with the homeless community in *People's Park*.
+* In January 2016, I dropped out of college three days before my classes started, sublet my room, put a mattress in the hobbling Honda Civic I bought the previous summer, and lived out of my car until my sister's graduation in May. This journey included a 5-week stint in New Orleans on an urban farming community in the Lower 9th Ward, a week in Houston with the family of one of my clients, a week of backcountry camping in Yosemite, and a stint in Berkeley in which I lived with the homeless community in *People's Park*.
 
 * In December 2017, I visited Montreal in a Prius with Cameron and our friend Stuart.
 
