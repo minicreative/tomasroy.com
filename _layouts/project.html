@@ -15,10 +15,8 @@
 	<div class="screens">
 		{% for screen in page.screens %}
 		<div class="screen-item">
-			<div class="screen">
-				<img src="{{ screen.image }}" />
-				<span>{{ screen.caption }}</span>
-			</div>
+			<div class="screen"><img src="{{ screen.image }}" /></div>
+			<span class="caption">{{ screen.caption }}</span>
 		</div>
 		{% endfor %}
 	</div>

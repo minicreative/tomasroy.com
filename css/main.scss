@@ -182,13 +182,22 @@ body.project {
 	#corner {display:none;}
 	header .navigation a {margin:0px 10px;}
 	.screens {
-		margin:$pad 0px; padding:15px 0px; overflow-x:scroll; white-space:nowrap; text-align:center; 
+		margin:$pad 0px; padding:0px 15px; overflow-x:scroll; white-space:nowrap; text-align:center; 
+		@include breakpoint(xs) {padding:0px 10px;}
 		.screen-item {
-			display:inline-block; margin:0px 15px; width:540px;
-			.screen {display:block; width:100%; max-height:360px;
+			display:inline-block; vertical-align:top;
+			margin:0px 15px; width:540px; padding:0px 0px 30px;
+			white-space:normal; text-align:left;
+			@include breakpoint(s) {width:440px;}
+			@include breakpoint(xs) {width:400px; margin:0px 10px;}
+			.screen {
+				display:block; width:100%; max-height:360px;
+				@include breakpoint(s) {max-height:300px;}
+				@include breakpoint(xs) {max-height:260px;}
 				img {margin-left:2%; margin-right:2%;}
 			}
-			.caption {display:block; margin-top:15px; font-size:12px; font-weight:300;}
+			.caption {display:block; margin-top:15px; width:80%;
+				font-size:14px; font-weight:300; line-height:1.5; color:$text_subtle;}
 		}
 	}
 	.left-align {text-align:left;}

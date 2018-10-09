@@ -5,7 +5,7 @@ description: A platform which provides tools for roommates to better share their
   and for landlords to better maintain their properties.
 screens:
 - image: "/uploads/roof.png"
-  caption: 
+  caption: Here's a caption
 buttons:
 - name: Visit website
   url: https://roof.io
