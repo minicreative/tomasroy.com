@@ -13,4 +13,4 @@ I am enamored with [travel](/travel.html), primarily because I believe [motion i
 
 I've spent a lot of time [writing code](/code.html) because it's fun and a bit poetic and I can use it to make a living from almost anywhere.
 
-I grew up in Waxhaw, North Carolina and studied computer science and philosophy at UNC.
+I grew up in Waxhaw, North Carolina and studied computer science and [philosophy](/writings.html?tag=assignment) at UNC.
