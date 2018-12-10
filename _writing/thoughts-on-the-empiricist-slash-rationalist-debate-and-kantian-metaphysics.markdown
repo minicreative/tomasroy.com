@@ -1,6 +1,9 @@
 ---
 title: Thoughts on the Empiricist / Rationalist debate and Kantian metaphysics
-date: 2018-12-10 11:48:00 -05:00
+date: 2018-02-07 00:00:00 -05:00
+tags:
+- philosophy
+- metaphysics
 layout: post
 ---
 
