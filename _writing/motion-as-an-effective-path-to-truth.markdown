@@ -1,5 +1,5 @@
 ---
-title: Motion as the Most Effective Path to Truth
+title: Motion as an Effective Path to Truth
 date: 2016-04-11 13:55:00 -04:00
 tags:
 - travel
@@ -15,7 +15,7 @@ Modern philosophy informs us that the human consciousness – the phenomenon whi
 
 Humans can only communicate with members of their own species. There is no other species on Earth that is capable of providing us with a way to relate to it’s own subjective experience, except perhaps through the expression of pain - but that is a conversation for another day. With this (albeit very anthrocentric) understanding, the search for quasi-objective truth - subjective agreement - is limited to human experience. And yet anyone can point to countless examples of subjective disagreement - even static lifestyles will expose an individual consciousness to a wide variety of unique understandings, a variety which yells ‘there is no truth’ loud and clear. But the intellect is hungry, and it yearns to believe that when it identifies a concept as ‘true’, that it can be correct in doing so. It would appear, then, that if (with our modern epistemological understanding) the closest we can get to the ‘objective’ is some sort of ‘subjective agreement,’ the objective is something that can only be genuinely pursued by the widest range of exposure to individual subjective experiences. On a very understandable level, this exposure is only remotely possible if an individual pursues motion.
 
-My suggestion, simply put, is that motion is the most effective path to truth.
+My suggestion, simply put, is that motion is an effective path to truth.
 
 This suggestion is accompanied by the acknowledgement that no human being will ever get close to experiencing even a fraction of the variety of subjective experiences in the world. Even if one were to speak to every conscious being on the planet, the existence of numerous languages and even the various personal connotation of words in a single language point again to the impossibility of realizing a genuine ‘objective’ understanding. Despite this acknowledgement, every day we open our mouths, and every day our intellects thrive on exposure to new data and new subjective experiences, whether they are our own or those communicated by others, and there is a significant, chemical reality to the feeling of mutual understanding. 
 

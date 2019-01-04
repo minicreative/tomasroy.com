@@ -29,8 +29,6 @@ sass:
 navigation:
 - title: Writing
   link: "/writings.html"
-- title: Travel
-  link: "/travel.html"
 - title: Code
   link: "/code.html"
 - title: Say Hi
