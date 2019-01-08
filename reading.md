@@ -58,7 +58,6 @@ books:
 - title: Frannie & Zooey
   author: J.D. Salinger
   month: March 2018
-
 ---
 
 In an effort to remember passages from novels and other literature that inspire me or relate to ideas that I'm trying to communicate, I've decided to track the books I'm reading and record what I underline in them.
