@@ -1,6 +1,6 @@
 ---
 title: Roof
-position: 0
+position: 1
 description: A platform which provides tools for roommates to better share their homes
   and for landlords to better maintain their properties.
 screens:

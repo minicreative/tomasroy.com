@@ -1,6 +1,6 @@
 ---
 title: MiniCreative
-position: 1
+position: 0
 description: My freelance website design & development endeavor which has served over
   50 clients with a variety of different needs.
 screens:
