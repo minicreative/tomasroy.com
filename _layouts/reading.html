@@ -9,8 +9,8 @@
 					<h3>{{ book.title }}</h3>
 					<div class="author">{{ book.author }}</div>
 					<div class="date">{{ book.month }}</div>
-					{% if book.quotes %}
-						<div class="quotes">{{ book.quotes | markdownify }}</div>
+					{% if book.description %}
+						<div class="quotes">{{ book.description | markdownify }}</div>
 					{% endif %}
 				</div>
 			{% endfor %}

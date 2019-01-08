@@ -253,8 +253,9 @@ body.mississippi {
 }
 body.reading {
 	.book {
-		@include row;
+		margin-top:50px;
 		.date {font-size:14px; color:$text_subtle;}
+		.quotes {font-size:16px;}
 	}
 }
 
