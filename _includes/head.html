@@ -3,7 +3,7 @@
 	<head>
 
 		<!-- META Information -->
-		<title>{% if page.layout != 'home' %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+		<title>{% if page.layout != 'basic' %}{{ page.title }} ~ {% endif %}{{ site.title }}</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,10 +26,10 @@
 		<!-- Header -->
 		<header>
 			<div class="container">
-				<a href="/"><div class="title">{{ site.title }}</div></a>
-				<div class="navigation">
-					{% for nav in site.navigation %}<a href="{{ nav.link }}">{{ nav.title }}</a>{% endfor %}
-				</div>
+				<a href="/">
+					<img src="{{ site.headshot }}" class="headshot" />
+					<div class="title">{{ site.title }}</div>
+				</a>
 			</div>
 		</header>
 

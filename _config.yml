@@ -21,17 +21,9 @@ corner_images:
 - "/uploads/40.jpg"
 - "/uploads/30.jpg"
 - "/uploads/41.jpg"
-phone: "(704) 256-0318"
-email: hello@minicreative.net
-footer_text: Site handmade using [Jekyll](https://jekyllrb.com/). Thanks for visiting!
+headshot: "/uploads/TomasRoy.jpg"
+footer_text: Thanks for visiting! You can email me at [hello@minicreative.net](mailto:hello@minicreative.net)
 sass:
   style: compressed
-navigation:
-- title: Writing
-  link: "/writings.html"
-- title: Code
-  link: "/code.html"
-- title: Say Hi
-  link: "/contact.html"
 plugins:
 - jekyll-sitemap

@@ -63,8 +63,8 @@ $pad_: 20px; // tablet and mobile
 
 $text: #222;
 $text_subtle: #999;
-$subtle: #eee;
-$subtle_: #ddd;
+$subtle: #ddd;
+$subtle_: #ccc;
 
 // Fonts
 body {font-family:'Avenir', 'Helvetica', 'Arial', sans-serif; font-size:16px; 
@@ -103,8 +103,11 @@ a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
 _:-ms-lang(x), #corner {display:none;}
 
 header {
-	margin-top:$pad; padding-bottom:20px; text-transform:lowercase;
-	.title {font-size:30px; font-weight:700; line-height:1;}
+	margin-top:$pad; padding-bottom:10px;
+	a, a:hover {border-bottom:0px;}
+	.headshot, .title {display:inline-block; vertical-align:top;}
+	.headshot {margin-right:16px; height:48px; width:48px; @include border-radius(50%);}
+	.title {font-size:30px; font-weight:700; line-height:48px; text-transform:lowercase;}
 	.navigation {
 		margin-top:10px;
 		a {
