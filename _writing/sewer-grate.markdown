@@ -4,6 +4,7 @@ date: 2016-05-19 14:00:00 -04:00
 tags:
 - poetry
 layout: post
+hide: true
 ---
 
 It was always about words, or the lack thereof.

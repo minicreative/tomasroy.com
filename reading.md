@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Their Eyes Were Watching God
+  author: Zora Neale Hurston
+  month: January 2019
 - title: The Doors of Perception
   author: Aldous Huxley
   month: January 2019

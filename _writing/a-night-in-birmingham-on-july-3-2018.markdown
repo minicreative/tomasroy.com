@@ -5,6 +5,7 @@ tags:
 - travel
 - story
 layout: post
+hide: true
 ---
 
 After dinner Claire and I go to the porch to smoke a cigarette. From her porch we see the sun setting on the horizon. To the south of Birmingham there is a magnificent hill that makes it possible to look across an old southern city and see where the sky meets the trees, many miles off. Claire lives towards the top of this hill. Despite its relative simplicity, I find the view excruciatingly wonderful.

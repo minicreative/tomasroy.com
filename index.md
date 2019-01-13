@@ -13,6 +13,6 @@ I'm currently living in New Orleans, biking around, spending time [reading](/rea
 
 I'm enamored with [travel](/travel.html), primarily because I believe [motion is an effective path to truth](/writing/motion-as-an-effective-path-to-truth.html). I like to hitch-hike, talk to strangers, sit on city sidewalks, and climb mountains.
 
-I've spent a lot of time [writing code](/code.html) because it's fun and a bit poetic and I've been able to use it to make a living from many different places.
+I've spent a lot of time [designing websites & software](/code.html) because it's fun and a bit poetic and I've been able to use it to make a living from many different places. I've got stuff on [GitHub](https://github.com/minicreative) too.
 
 I grew up in Waxhaw, North Carolina and studied computer science and [philosophy](/writings.html?tag=assignment) at UNC.
