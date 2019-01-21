@@ -6,7 +6,6 @@ books:
 - title: Nickel and Dimed: On (Not) Getting By in America
   author: Barbara Ehrenreich
   month: January 2019
-  description: 
 - title: Their Eyes Were Watching God
   author: Zora Neale Hurston
   month: January 2019
