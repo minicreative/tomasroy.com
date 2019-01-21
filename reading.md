@@ -3,6 +3,10 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Nickel and Dimed: On (Not) Getting By in America
+  author: Barbara Ehrenreich
+  month: January 2019
+  description: 
 - title: Their Eyes Were Watching God
   author: Zora Neale Hurston
   month: January 2019
