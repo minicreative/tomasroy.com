@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: 'Showdown in Desire: The Black Panthers Take a Stand in New Orleans'
+  author: Orissa Arend
+  month: January 2019
 - title: 'Nickel and Dimed: On (Not) Getting By in America'
   author: Barbara Ehrenreich
   month: January 2019
