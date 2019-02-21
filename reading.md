@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: 'The Unsettling of America: Culture and Agriculture'
+  author: Wendell Berry
+  month: February 2019
 - title: 'Showdown in Desire: The Black Panthers Take a Stand in New Orleans'
   author: Orissa Arend
   month: January 2019
