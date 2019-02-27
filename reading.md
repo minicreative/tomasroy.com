@@ -3,9 +3,12 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Capital in the 21st Century
+  author: Thomas Piketty
+  month: February 2019
 - title: 'The Unsettling of America: Culture and Agriculture'
   author: Wendell Berry
-  month: February 2019
+  month: January 2019
 - title: 'Showdown in Desire: The Black Panthers Take a Stand in New Orleans'
   author: Orissa Arend
   month: January 2019
