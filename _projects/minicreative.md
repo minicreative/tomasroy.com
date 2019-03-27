@@ -32,7 +32,7 @@ bullets:
   description: HTML5, CSS/Sass, Javascript/jQuery, PHP, Liquid, Markdown
 - title: Publishing Platforms
   icon: fas fa-archive
-  description:
+  description: 
 layout: project
 ---
 
