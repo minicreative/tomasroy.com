@@ -29,3 +29,4 @@ buttons:
 layout: project
 ---
 
+During the 7th grade, when a family friend opened a restaurant in my hometown and didn't yet have a website, I offered them a one for free so that I could do something practical with the rudimentary programming skills I'd been learning. After completing several more sites in the area, I began to offer website design and development services in earnest, building my client base primarily through recommendations from small business owners who knew each other. I learned more about the growing body of web standards and technologies with each project, and by the time I finished high-school, I'd built a business that could sustain a modest financial independence and allow me to foster strong relationships with a large number of individuals and entrepreneurs within my community and around the country.
