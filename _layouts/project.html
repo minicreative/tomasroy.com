@@ -29,19 +29,42 @@
 		</div>
 	</div>
 
+	{% if page.bullets %}
 	<div class="bullets left-align">
 		<div class="container">
 			{% for bullet in page.bullets %}
 			<div class="bullet">
 				<div class="icon {{ bullet.icon }}"></div>
-				<div class="text">
-					<h2>{{ bullet.title }}</h2>
-					{{ bullet.description }}
-				</div>
+				<h2>{{ bullet.title }}</h2>
+				{{ bullet.description | markdownify }}
+				<div class="clear"></div>
 			</div>
 			{% endfor %}
 		</div>
 	</div>
+	{% endif %}
+
+	{% if page.studies %}
+	<div class="content">
+		<div class="container">
+			<h2>Case Studies</h2>
+			{% for study in page.studies %}
+			<div class="study row">
+				<img src="" />
+				<h2>{{ study.title}}</h2>
+				{{ study.description | markdownify }}
+				{% if study.links %}
+				<div class="links">
+					{% for link in study.links %}
+						<a href="{{ link.url }}">{{ link.title }}</a>
+					{% endfor %}
+				</div>
+				{% endif %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	{% endif %}
 
 	<a class="return-link" href="/code.html"><i class="fas fa-arrow-alt-circle-left"></i> View all projects</a>
 	
