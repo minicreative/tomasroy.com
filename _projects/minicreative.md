@@ -29,7 +29,7 @@ buttons:
 bullets:
 - title: Coding Languages
   icon: fas fa-code
-  description: Content goes here!
+  description: HTML5, CSS/Sass, Javascript/jQuery, PHP, Liquid, Markdown
 layout: project
 ---
 
