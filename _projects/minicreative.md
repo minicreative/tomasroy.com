@@ -46,14 +46,15 @@ bullets:
   description: Adobe Photoshop, Adobe Illustrator
 - title: Business Platforms
   icon: fas fa-building
-  description: Google My Business, Google Analytics, Google Search Console, Google AdWords
+  description: Google My Business, Google Analytics, Google Search Console, Google
+    AdWords
 - title: Web Technologies
   icon: fas fa-plug
   description: Website hosting, DNS management, professional email setup
 studies:
 - title: PerfectFit
-  image:
-  description:
+  image: 
+  description: 
   links:
   - title: View website
     url: https://perfectfitind.com
