@@ -32,7 +32,15 @@ bullets:
   description: HTML5, CSS/Sass, Javascript/jQuery, PHP, Liquid, Markdown
 - title: Publishing Platforms
   icon: fas fa-archive
-  description: 
+  description: |-
+    **WordPress:** The most popular CMS on the internet today. My experience includes installation, pre-existing theme customization, and the creation of custom themes.
+
+    **ProcessWire:** I recommend ProcessWire to clients who want a CMS that's straightforward and easy to use and who want the highest level of customization. ProcessWire is a brilliant open-source CMS which comes out of the box completely blank, making uniqueness both easy and necessary.
+
+    **Tumblr:** I've created custom Tumblr themes for clients who wanted a simple blogging platform that matched their website.
+- title: E-commerce Platforms
+  icon: fas fa-shopping-cart
+  description: Volusion, Shopify, Tictail
 layout: project
 ---
 
