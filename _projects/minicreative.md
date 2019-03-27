@@ -30,6 +30,9 @@ bullets:
 - title: Coding Languages
   icon: fas fa-code
   description: HTML5, CSS/Sass, Javascript/jQuery, PHP, Liquid, Markdown
+- title: Publishing Platforms
+  icon: fas fa-archive
+  description:
 layout: project
 ---
 
