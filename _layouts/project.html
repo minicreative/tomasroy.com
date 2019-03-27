@@ -29,6 +29,20 @@
 		</div>
 	</div>
 
+	<div class="bullets left-align">
+		<div class="container">
+			{% for bullet in page.bullets %}
+			<div class="bullet">
+				<div class="icon {{ bullet.icon }}"></div>
+				<div class="text">
+					<h2>{{ bullet.title }}</h2>
+					{{ bullet.description }}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+
 	<a class="return-link" href="/code.html"><i class="fas fa-arrow-alt-circle-left"></i> View all projects</a>
 	
 {% include foot.html %}

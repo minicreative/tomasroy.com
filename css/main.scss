@@ -122,6 +122,21 @@ header {
 	@include breakpoint(xs) {font-size:16px; line-height:1.5;}
 }
 
+.bullets {
+	@include row; padding-top:1px; padding-bottom:$pad; background:#f5f5f5;
+	.bullet {
+		@include row;
+		.icon, .text {display:inline-block; vertical-align:top;}
+		.icon {
+			padding:10px 12px; background:$subtle; @include border-radius(50%); 
+			line-height:1.5; margin-right:20px; color:#666;
+		}
+		.text {
+			h2 {margin-bottom:15px;}
+		}
+	}
+}
+
 .return-link {
 	display:block; margin:30px 0px;
 	text-align:center; color:#999; font-size:16px;

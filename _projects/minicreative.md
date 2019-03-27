@@ -26,7 +26,15 @@ screens:
 buttons:
 - name: View full portfolio
   url: http://minicreative.net
+bullets:
+- title: Coding Languages
+  icon: fas fa-code
+  description: Content goes here!
 layout: project
 ---
 
-During the 7th grade, when a family friend opened a restaurant in my hometown and didn't yet have a website, I offered them a one for free so that I could do something practical with the rudimentary programming skills I'd been learning. After completing several more sites in the area, I began to offer website design and development services in earnest, building my client base primarily through recommendations from small business owners who knew each other. I learned more about the growing body of web standards and technologies with each project, and by the time I finished high-school, I'd built a business that could sustain a modest financial independence and allow me to foster strong relationships with a large number of individuals and entrepreneurs within my community and around the country.
+During the 8th grade, when a new restaurant opened in my hometown and didn't yet have a website, I walked in and offered them one for free so that I could do something practical with the rudimentary programming skills I'd been learning on my mom's computer (which only recently moved from dial-up to DSL). After completing several websites for other local businesses, I began to offer website design and development services in earnest, building my client base primarily through recommendations from small business owners who knew one another and liked my work. 
+
+With each project, I learned more about the growing body of web standards and technologies, the aesthetic components of website design, the needs of small business owners, and the dynamics of freelancer-client relationships and communication. A strong initial desire to create visually compelling, one-of-a-kind websites motivated me to avoid template-based website builders and build each project entirely from scratch, which required me to foster an intamite knowledge of HTML and CSS and an acute attention to detail. What began as a primarily aesthetic practice quickly became equally technical as I realized most of my clients wanted domain registration, hosting, and a variety of other services taken care of as well.
+
+Almost 10 years later, I continue to offer website design and development, both under my MiniCreative brand and otherwise. Through working with over 50 clients, I've gained a deep familiarity with the technology stack responsible for serving websites and a variety of popular and not-so-popular platforms for content management. I've also gathered basic knowledge about adjacent marketing fields like social networking, paid advertising and search engine optimization, and have provided consultation on a wide range of both technology and branding questions that small business owners typically have.
