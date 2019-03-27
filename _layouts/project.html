@@ -45,13 +45,16 @@
 	{% endif %}
 
 	{% if page.studies %}
-	<div class="content">
+	<div class="content left-align">
 		<div class="container">
 			<h2>Case Studies</h2>
 			{% for study in page.studies %}
 			<div class="study row">
-				<img src="" />
-				<h2>{{ study.title}}</h2>
+				{% if study.image %} 
+					<img src="{{ study.image }}" />
+				{% else %}
+					<h2>{{ study.title}}</h2>
+				{% endif %}
 				{{ study.description | markdownify }}
 				{% if study.links %}
 				<div class="links">
