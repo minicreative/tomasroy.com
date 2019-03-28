@@ -5,6 +5,7 @@ tags:
 - assignment
 - philosophy
 - metaphysics
+- freedom
 layout: post
 ---
 

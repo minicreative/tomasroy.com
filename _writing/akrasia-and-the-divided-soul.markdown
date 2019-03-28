@@ -5,6 +5,7 @@ tags:
 - assignment
 - philosophy
 - freedom
+- psychology
 layout: post
 ---
 

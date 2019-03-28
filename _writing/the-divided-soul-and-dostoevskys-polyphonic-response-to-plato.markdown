@@ -6,6 +6,7 @@ tags:
 - philosophy
 - literature
 - freedom
+- psychology
 layout: post
 ---
 

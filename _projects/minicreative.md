@@ -54,10 +54,10 @@ bullets:
 studies:
 - title: PerfectFit
   image: "/uploads/PerfectFitLogo_ca78b599-2427-4a49-9a48-c65fe3707a01_600x92@2x.png"
-  description: "PerfectFit is a textile distributor headquarters in Charlotte, NC.
+  description: "PerfectFit is a textile distributor headquartered in Charlotte, NC.
     They approached me to develop an e-commerce website which they needed in order
     to begin a factory-direct sales front. \n\nI suggested we work with Shopify and
-    helped them customize a theme for their needs. With over 800 SKUs maintained in
+    helped them customize a theme for their needs. However, with over 800 SKUs maintained in
     an Excel spreadsheet, such an endeavor presented several additional challenges.
     \n\nI helped PerfectFit organize their data in a consistent manner, and developed
     a tool using Node.js to parse and convert their current inventory spreadsheet

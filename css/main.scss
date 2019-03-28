@@ -220,14 +220,20 @@ body.project {
 		.bullet {
 			@include row; position:relative; padding-left:44px;
 			.icon {position:absolute; top:0px; left:0px; color:#666; line-height:1.5;}
-			h2 {line-height:1;}
+			h2 {font-size:20px; line-height:1;}
 			line-height:1.5; font-weight:300;
 			strong {font-weight:400;}
+			p:last-of-type {margin-bottom:0px;}
 		}
 	}
 	.study {
 		@include row;
-		img {max-width:400px; max-height:100px;}
+		img {
+			max-width:300px; max-height:80px;
+			@include breakpoint(s) {
+				width:100%; max-width:100%;
+			}
+		}
 		.links {
 			margin-top:10px;
 			a {display:inline-block; margin-right:15px;}
