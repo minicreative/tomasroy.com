@@ -193,7 +193,9 @@ body.projects {
 body.project {
 	text-align:center;
 	#corner {display:none;}
-	header .navigation a {margin:0px 10px;}
+	.buttons {
+		a {display:inline-block; margin:0px 8px;}
+	}
 	.screens {
 		margin:$pad 0px; padding:0px 15px; overflow-x:scroll; white-space:nowrap; text-align:center; 
 		@include breakpoint(xs) {padding:0px 10px;}
