@@ -15,6 +15,13 @@ screens:
 buttons:
 - name: View GitHub project
   url: https://github.com/Thesis-Network/thesis.app
+bullets:
+- title: Frameworks & Languages
+  icon: fas fa-code
+  description: Javascript (AngularJS, NodeJS), MongoDB, nginx
+- title: Development Tools & APIs
+  icon: fas fa-tools
+  description: Github, Google Maps API
 layout: project
 ---
 
