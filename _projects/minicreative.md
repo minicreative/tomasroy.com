@@ -57,8 +57,8 @@ studies:
   description: "PerfectFit is a textile distributor headquartered in Charlotte, NC.
     They approached me to develop an e-commerce website which they needed in order
     to begin a factory-direct sales front. \n\nI suggested we work with Shopify and
-    helped them customize a theme for their needs. However, with over 800 SKUs maintained in
-    an Excel spreadsheet, such an endeavor presented several additional challenges.
+    helped them customize a theme for their needs. However, with over 800 SKUs maintained
+    in an Excel spreadsheet, such an endeavor presented several additional challenges.
     \n\nI helped PerfectFit organize their data in a consistent manner, and developed
     a tool using Node.js to parse and convert their current inventory spreadsheet
     to the CSV format required by Shopify for batch imports. I also created a hosted
