@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: The Strange and Profane Love Machine
+  author: Iris Murdoch
+  month: March 2019
 - title: Capital in the 21st Century
   author: Thomas Piketty
   month: February 2019

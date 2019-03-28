@@ -217,6 +217,7 @@ body.project {
 	}
 	.bullets {
 		@include row; padding-top:1px; padding-bottom:$pad; background:#f5f5f5;
+		@include breakpoint(s) {padding-bottom:$pad_;}
 		.bullet {
 			@include row; position:relative; padding-left:44px;
 			.icon {position:absolute; top:0px; left:0px; color:#666; line-height:1.5;}
