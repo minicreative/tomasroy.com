@@ -3,6 +3,15 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Goatwalking
+  author: Jim Corbett
+  month: June 2019
+- title: The Brief Wondrous Life of Oscar Wao
+  author: Junot Diaz
+  month: May 2019
+- title: The Road
+  author: Cormac McCarthy
+  month: April 2019
 - title: The Strange and Profane Love Machine
   author: Iris Murdoch
   month: March 2019
