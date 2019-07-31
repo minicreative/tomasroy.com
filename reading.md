@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: One Hundred Years of Solitude
+  author: Gabriel Garcia Marquéz
+  month: July 2019
 - title: Goatwalking
   author: Jim Corbett
   month: June 2019
@@ -12,7 +15,7 @@ books:
 - title: The Road
   author: Cormac McCarthy
   month: April 2019
-- title: The Strange and Profane Love Machine
+- title: The Sacred and Profane Love Machine
   author: Iris Murdoch
   month: March 2019
 - title: Capital in the 21st Century
