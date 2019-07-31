@@ -132,4 +132,4 @@ books:
 layout: reading
 ---
 
-The books I'm reading and the passages that inspire me or stick out to me as relevant.
+The books I'm reading (and some passages that inspire me or stick out to me as relevant)
