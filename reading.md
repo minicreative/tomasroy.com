@@ -3,6 +3,12 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: If Beale Street Could Talk
+  author: James Baldwin
+  month: September 2019
+- title: The Red Pony
+  author: John Steinbeck
+  month: September 2019
 - title: One Hundred Years of Solitude
   author: Gabriel Garcia Marquéz
   month: July 2019
