@@ -3,6 +3,15 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Somthing Rich and Strange
+  author: Ron Rash
+  month: January 2020
+- title: The Argonauts
+  author: Maggie Nelson
+  month: November 2019
+- title: Tortilla Flat
+  author: John Steinbeck
+  month: October 2019
 - title: If Beale Street Could Talk
   author: James Baldwin
   month: September 2019 
