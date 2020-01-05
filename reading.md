@@ -33,9 +33,6 @@ books:
 - title: The Sacred and Profane Love Machine
   author: Iris Murdoch
   month: March 2019
-- title: Capital in the 21st Century
-  author: Thomas Piketty
-  month: February 2019
 - title: 'The Unsettling of America: Culture and Agriculture'
   author: Wendell Berry
   month: January 2019
