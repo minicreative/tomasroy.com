@@ -3,6 +3,12 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Sex, Economy, Freedom & Community
+  author: Wendell Berry
+  month: March 2020
+- title: Go Tell It On The Mountain
+  author: James Baldwin
+  month: February 2020
 - title: Somthing Rich and Strange
   author: Ron Rash
   month: January 2020
