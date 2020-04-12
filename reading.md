@@ -3,6 +3,12 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Dorothy Day
+  author: Alan Brilliant
+  month: April 2020
+- title: Elizabeth Costello
+  author: J. M. Coetzee
+  month: March 2020
 - title: Sex, Economy, Freedom & Community
   author: Wendell Berry
   month: March 2020
