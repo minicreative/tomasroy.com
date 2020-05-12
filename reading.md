@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: 'Small is Beautiful: A Study of Economics as if People Mattered'
+  author: E. F. Schumacher
+  month: April 2020
 - title: Dorothy Day
   author: Alan Brilliant
   month: April 2020
