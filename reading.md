@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Song of Solomon
+  author: Toni Morrison
+  month: May 2020
 - title: 'Small is Beautiful: A Study of Economics as if People Mattered'
   author: E. F. Schumacher
   month: April 2020
