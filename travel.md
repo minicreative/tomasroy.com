@@ -20,3 +20,5 @@ As a kid, due to the combined influence of stories like *Into the Wild* and *On 
 * In December 2017, I visited Montreal in a Prius with Cameron and our friend Stuart.
 
 * In August 2018, I attempted to [canoe to New Orleans via the Mississippi River](/mississippi.html), starting in Minneapolis. I made it almost 700 miles until the trip was cut short by a near-fatal accident involving a parked barge in the industrial area of St. Louis in which I lost my boat and everything in it.
+
+* In December 2019, I visited Nova Scotia in a Prius with Cameron and our friend Brian.
