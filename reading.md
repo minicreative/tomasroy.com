@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: White Teeth
+  author: Zadie Smith
+  month: May 2020
 - title: Song of Solomon
   author: Toni Morrison
   month: May 2020
