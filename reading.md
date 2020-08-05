@@ -5,7 +5,10 @@ css: reading
 books:
 - title: White Teeth
   author: Zadie Smith
-  month: May 2020
+  month: June 2020
+- title: The End of Policing
+  author: Alex S. Vitale
+  month: June 2020
 - title: Song of Solomon
   author: Toni Morrison
   month: May 2020
