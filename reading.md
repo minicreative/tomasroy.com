@@ -3,6 +3,12 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: The Book of Laughter and Forgetting
+  author: Milan Kundera
+  month: August 2020
+- title: The Pearl
+  author: John Stienbeck
+  month: August 2020
 - title: White Teeth
   author: Zadie Smith
   month: June 2020
