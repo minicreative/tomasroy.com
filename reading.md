@@ -3,6 +3,15 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: A Guide for the Perplexed
+  author: E. F. Schumacher
+  month: September 2020
+- title: The Ada Decades
+  author: Paula Martinac
+  month: September 2020
+- title: "Dorothy Day: Selected Writings"
+  author: Dorothy Day
+  month: September 2020
 - title: The Book of Laughter and Forgetting
   author: Milan Kundera
   month: August 2020
