@@ -9,7 +9,7 @@ books:
 - title: The Ada Decades
   author: Paula Martinac
   month: September 2020
-- title: "Dorothy Day: Selected Writings"
+- title: 'Dorothy Day: Selected Writings'
   author: Dorothy Day
   month: September 2020
 - title: The Book of Laughter and Forgetting
