@@ -3,6 +3,12 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: The Glass Bead Game
+  author: Hermann Hesse
+  month: October 2020
+- title: Autobiography of Red
+  author: Anne Carson
+  month: October 2020
 - title: A Guide for the Perplexed
   author: E. F. Schumacher
   month: September 2020
