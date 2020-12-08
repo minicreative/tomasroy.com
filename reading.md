@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Calypso
+  author: David Sedaris
+  month: November 2020
 - title: The Glass Bead Game
   author: Hermann Hesse
   month: October 2020
