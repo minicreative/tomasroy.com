@@ -9,7 +9,7 @@ My name is Tomas (*toe-mus*)
 
 I'm fascinated by the concept of truth, and I like to practice radical faith in humanity.
 
-I'm currently living on the outskirts of Charlotte, NC, working part-time in cloud software. I'm spending time [reading](/reading.html), [writing](/writings.html), and learning about home construction.
+I'm currently living on the outskirts of Charlotte, NC, working part-time in cloud software. I'm spending time [reading](/reading.html), [writing](/writings.html), and learning carpentry & home construction.
 
 I'm enamored with [travel](/travel.html), primarily because I believe [motion is an effective path to truth](/writing/motion-as-an-effective-path-to-truth.html). I like to hitch-hike, talk to strangers, sit on city sidewalks, and climb mountains.
 
