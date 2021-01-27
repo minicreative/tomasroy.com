@@ -9,7 +9,8 @@ books:
 - title: Brave New World
   author: Aldous Huxley
   month: January 2020
-- title: "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants"
+- title: 'Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings
+    of Plants'
   author: Robin Wall Kimmerer
   month: December 2020
 - title: Calypso
