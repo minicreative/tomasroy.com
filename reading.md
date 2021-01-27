@@ -3,8 +3,13 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
-- title: 'Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings
-    of Plants'
+- title: Less Than Zero
+  author: Bret Easton Ellis
+  month: January 2020
+- title: Brave New World
+  author: Aldous Huxley
+  month: January 2020
+- title: "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants"
   author: Robin Wall Kimmerer
   month: December 2020
 - title: Calypso
