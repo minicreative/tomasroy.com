@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Why We're Polarized
+  author: Ezra Klein
+  month: January 2020
 - title: Less Than Zero
   author: Bret Easton Ellis
   month: January 2020
