@@ -3,7 +3,7 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
-- title: A Confederacy of Dunes
+- title: A Confederacy of Dunces
   author: John Kennedy Toole
   month: February 2021
 - title: Why We're Polarized
