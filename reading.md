@@ -3,6 +3,9 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: The Autobiography of Malcolm X
+  author: Alex Haley
+  month: March 2021
 - title: A Confederacy of Dunces
   author: John Kennedy Toole
   month: February 2021
