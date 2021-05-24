@@ -3,6 +3,12 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Drown
+  author: Junot Diaz
+  month: May 2021
+- title: Love Medicine
+  author: Louise Erdrich
+  month: April 2021
 - title: The Autobiography of Malcolm X
   author: Alex Haley
   month: March 2021
