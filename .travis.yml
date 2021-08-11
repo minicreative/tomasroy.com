@@ -1,4 +1,6 @@
 language: ruby
+os: linux
+dist: focals
 
 branches:
   only:
@@ -8,9 +10,7 @@ services:
   - docker
 
 install:
-  - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
-  - chmod +x ./kubectl
-  - sudo mv ./kubectl /usr/local/bin/kubectl
+  - sudo snap install kubectl --classic
   - sudo snap install doctl
   - sudo snap install yq
 
