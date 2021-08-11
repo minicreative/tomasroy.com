@@ -1,4 +1,6 @@
 language: ruby
+rvm:
+  - 2.6.3
 os: linux
 dist: focals
 
@@ -21,6 +23,9 @@ before_script:
   - doctl registry login
 
 script:
+  - bundle exec jekyll build
+
+before_deploy:
   - tag=registry.digitalocean.com/tomas-registry/tomasroy.com:$TRAVIS_BUILD_NUMBER
   - docker build -t $tag .
   - docker push $tag
