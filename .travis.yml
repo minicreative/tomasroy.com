@@ -8,6 +8,7 @@ services:
   - docker
 
 install:
+  - sudo snap refresh
   - sudo snap install kubectl --classic
   - sudo snap install doctl
   - sudo snap install yq
