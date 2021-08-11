@@ -8,9 +8,9 @@ services:
   - docker
 
 install:
-  - snap install kubectl --classic
-  - snap install doctl
-  - snap install yq
+  - sudo snap install kubectl --classic
+  - sudo snap install doctl
+  - sudo snap install yq
 
 before_script:
   - mkdir ${HOME}/.kube
