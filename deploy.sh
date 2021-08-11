@@ -1,3 +1,6 @@
 #!/bin/bash
-ssh $deploy_user@$deploy_host /home/$deploy_user/deploy-jekyll.sh $1
-exit $?
+set -e
+yq eval ".spec.template.spec.containers[0].image = \"$1\"" deployment/deployment.yaml > deployment/deployment-merged.yaml
+kubectl apply -f deployment/deployment-merged.yaml
+kubectl apply -f deployment/service.yaml
+kubectl apply -f deployment/ingress.yaml
