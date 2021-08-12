@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.6.3
+- 2.6.3
 os: linux
 dist: focals
 
@@ -9,25 +9,25 @@ branches:
   - master
 
 services:
-  - docker
+- docker
 
 install:
-  - sudo snap install kubectl --classic
+- sudo snap install kubectl --classic
 
 before_script:
-  - mkdir ${HOME}/.kube
-  - echo "$KUBECONFIG_ENC" | base64 --decode > ${HOME}/.kube/config
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+- mkdir ${HOME}/.kube
+- echo "$KUBECONFIG_ENC" | base64 --decode > ${HOME}/.kube/config
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 script:
-  - bundle install
-  - bundle exec jekyll build
+- bundle install
+- bundle exec jekyll build
 
 before_deploy:
-  - export IMAGE=minicreative/tomasroy.com:$TRAVIS_BUILD_NUMBER
-  - docker build -t $IMAGE .
-  - docker push $IMAGE
-  - envsubst < kube.yaml > kube-merged.yaml
+- export IMAGE=minicreative/tomasroy.com:$TRAVIS_BUILD_NUMBER
+- docker build -t $IMAGE .
+- docker push $IMAGE
+- envsubst < kube.yaml > kube-merged.yaml
 
 deploy:
 - provider: script
