@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tomasroy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tomasroy
+  template:
+    metadata:
+      labels:
+        app: tomasroy
+    spec:
+      containers:
+      - name: main
+        image: registry.digitalocean.com/tomas-registry/tomasroy.com
+        ports:
+        - containerPort: 80
+          protocol: TCP
+      imagePullSecrets:
+      - name: do-registry
