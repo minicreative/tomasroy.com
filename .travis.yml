@@ -26,8 +26,9 @@ script:
   - bundle install
   - bundle exec jekyll build
 
-after_script:
+before_deploy:
   - tag=registry.digitalocean.com/tomas-registry/tomasroy.com:$TRAVIS_BUILD_NUMBER
+  - echo "Deploying $tag..."
   - docker build -t $tag .
   - docker push $tag
   - ./deploy.sh $tag
