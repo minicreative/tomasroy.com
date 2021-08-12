@@ -19,7 +19,7 @@ install:
 before_script:
   - mkdir ${HOME}/.kube
   - echo "$KUBECONFIG" | base64 --decode > ${HOME}/.kube/config
-  - echo ${HOME}/.kube/config
+  - cat ${HOME}/.kube/config
   - doctl auth init -t "$DOCTL"
   - doctl registry login
 
