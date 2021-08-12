@@ -19,6 +19,7 @@ install:
 before_script:
   - mkdir ${HOME}/.kube
   - echo "$KUBECONFIG" | base64 --decode > ${HOME}/.kube/config
+  - echo ${HOME}/.kube/config
   - doctl auth init -t "$DOCTL"
   - doctl registry login
 
@@ -26,7 +27,7 @@ script:
   - bundle install
   - bundle exec jekyll build
 
-after_scriptß:
+after_script:
   - tag=registry.digitalocean.com/tomas-registry/tomasroy.com:$TRAVIS_BUILD_NUMBER
   - docker build -t $tag .
   - docker push $tag
