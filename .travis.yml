@@ -6,7 +6,7 @@ dist: focals
 
 branches:
   only:
-  - master
+  - main
 
 services:
 - docker
@@ -34,4 +34,4 @@ deploy:
   skip_cleanup: true
   script: kubectl apply -f kube-merged.yaml
   on:
-    branch: master
+    branch: main
