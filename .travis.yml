@@ -26,13 +26,14 @@ script:
   - bundle exec jekyll build
 
 before_deploy:
-  - tag=minicreative/tomasroy.com:$TRAVIS_BUILD_NUMBER
-  - docker build -t $tag .
-  - docker push $tag
+  - export IMAGE=minicreative/tomasroy.com:$TRAVIS_BUILD_NUMBER
+  - docker build -t $IMAGE .
+  - docker push $IMAGE
+  - envsubst < kube.yaml > kube-merged.yaml
 
 deploy:
 - provider: script
   skip_cleanup: true
-  script: ./deploy.sh $tag
+  script: kubectl apply -f kube-merged.yaml
   on:
     branch: master
