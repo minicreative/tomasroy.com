@@ -17,17 +17,15 @@ services:
 install:
 - sudo snap install kubectl --classic
 
-before_script:
-- mkdir ${HOME}/.kube
-- echo "$KUBECONFIG_ENC" | base64 --decode > ${HOME}/.kube/config
-- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-
 script:
 - bundle install
 - bundle exec jekyll build
 - docker build -t $IMAGE .
 
 before_deploy:
+- mkdir ${HOME}/.kube
+- echo "$KUBECONFIG_ENC" | base64 --decode > ${HOME}/.kube/config
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push $IMAGE
 - envsubst < kube.yaml > kube-merged.yaml
 
