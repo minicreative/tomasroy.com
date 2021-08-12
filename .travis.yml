@@ -4,6 +4,9 @@ rvm:
 os: linux
 dist: focals
 
+env:
+- IMAGE=minicreative/tomasroy.com:$TRAVIS_BUILD_NUMBER
+
 branches:
   only:
   - main
@@ -22,10 +25,9 @@ before_script:
 script:
 - bundle install
 - bundle exec jekyll build
+- docker build -t $IMAGE .
 
 before_deploy:
-- export IMAGE=minicreative/tomasroy.com:$TRAVIS_BUILD_NUMBER
-- docker build -t $IMAGE .
 - docker push $IMAGE
 - envsubst < kube.yaml > kube-merged.yaml
 
