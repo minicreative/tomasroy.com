@@ -12,7 +12,7 @@ books:
 - title: Kafka on the Shore
   author: Haruki Murakami
   month: June 2021
-- title: "Fear of Falling: The Innter Life of the Middle Class"
+- title: 'Fear of Falling: The Innter Life of the Middle Class'
   author: Barbara Ehrenreich
   month: June 2021
 - title: Drown
