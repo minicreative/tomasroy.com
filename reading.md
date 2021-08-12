@@ -3,6 +3,18 @@ title: Reading
 date: 2019-01-08 15:56:00 -05:00
 css: reading
 books:
+- title: Jitterbug Perfume
+  author: Tom Robbins
+  month: July 2021
+- title: Cannery Row
+  author: John Steinbeck
+  month: July 2021
+- title: Kafka on the Shore
+  author: Haruki Murakami
+  month: June 2021
+- title: "Fear of Falling: The Innter Life of the Middle Class"
+  author: Barbara Ehrenreich
+  month: June 2021
 - title: Drown
   author: Junot Diaz
   month: May 2021
