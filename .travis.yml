@@ -19,23 +19,20 @@ install:
 before_script:
   - mkdir ${HOME}/.kube
   - echo "$KUBECONFIG_ENC" | base64 --decode > ${HOME}/.kube/config
-  - doctl auth init -t "$DOCTL"
-  - doctl registry login
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 script:
   - bundle install
   - bundle exec jekyll build
 
 before_deploy:
-  - tag=registry.digitalocean.com/tomas-registry/tomasroy.com:$TRAVIS_BUILD_NUMBER
-  - echo "Deploying $tag..."
+  - tag=minicreative/tomasroy.com:$TRAVIS_BUILD_NUMBER
   - docker build -t $tag .
   - docker push $tag
-  - ./deploy.sh $tag
 
 deploy:
 - provider: script
   skip_cleanup: true
-  script: deploy.sh $tag
+  script: ./deploy.sh $tag
   on:
     branch: master
