@@ -1,20 +1,16 @@
 ---
 title: Home
-url: "/"
+permalink: "/"
 css: home
 layout: basic
 ---
 
-My name is Tomas (*toe-mus*)
+Hey, my name's Tomas.
 
-I'm fascinated by the concept of truth, and I like to practice radical faith in humanity.
+I'm a 20-something from North Carolina, currently living in New Orleans, where I'm building homes and biking around.
 
-I'm currently living on the outskirts of Charlotte, NC, working part-time in cloud software. I'm spending time [reading](/reading.html), [writing](/writings.html), and learning carpentry & home construction.
+I'm fascinated by the concept of truth, and I like to practice a generous faith in humanity.
 
-I'm enamored with [travel](/travel.html), primarily because I believe [motion is an effective path to truth](/writing/motion-as-an-effective-path-to-truth.html). I like to hitch-hike, talk to strangers, sit on city sidewalks, and climb mountains.
+Many of my convictions are motivated by a belief that most of the world's ails are the result of the separation humans have constructed between ourselves and the rest of the natural world.
 
-I've spent a lot of time [building websites & software](/code.html) because it's fun and a bit [poetic](https://www.goodreads.com/quotes/69102-the-programmer-like-the-poet-works-only-slightly-removed-from) and because I've been able to use it to make a living from many different places. I'm on [GitHub](https://github.com/minicreative) too.
-
-I've done a lot of thinking about questions related to [the mind](/writings.html?tag=psychology), [freedom](/writings.html?tag=freedom) and [the nature of reality and how we know anything about it](/writings.html?tag=metaphysics). I'm excited to do more.
-
-I grew up in Waxhaw, North Carolina and studied computer science and [philosophy](/writings.html?tag=assignment) at UNC.
+I'm using my website as an open inventory of the [reading](/reading), [writing](/writing), and [projects](/projects) I'm working on, primarily as a way to keep myself accountable.

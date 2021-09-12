@@ -1,7 +1,6 @@
 ---
 title: Writing
-description: Essays, stories and rants from the last several years.
-url: "/writings"
+permalink: "/writing/"
 layout: writing
 ---
 

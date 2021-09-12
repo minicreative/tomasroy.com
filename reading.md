@@ -1,8 +1,19 @@
 ---
 title: Reading
+permalink: "/reading/"
 date: 2019-01-08 15:56:00 -05:00
 css: reading
+layout: reading
 books:
+- title: The Fire Next Time
+  author: James Baldwin
+  month: September 2021
+- title: "Black Flags and Windmills: Hope, Anarchy and the Common Ground Collective"
+  author: scott crow
+  month: September 2021
+- title: Are You Liberal? Conservative? Or Confused? (An Uncle Eric Book)
+  author: Richard J. Maybury
+  month: August 2021
 - title: Jitterbug Perfume
   author: Tom Robbins
   month: July 2021
@@ -232,7 +243,6 @@ books:
 - title: Frannie & Zooey
   author: J.D. Salinger
   month: March 2018
-layout: reading
 ---
 
 The books I'm reading (and some passages that inspire me or stick out to me as relevant)
