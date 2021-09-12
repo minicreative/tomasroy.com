@@ -8,6 +8,9 @@ collections:
   projects:
     title: Projects
     output: true
+  uploads:
+    title: Uploads
+    output: true
   writing:
     title: Writing
     output: true
