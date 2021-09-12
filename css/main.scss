@@ -2,21 +2,7 @@
 ---
 
 // SASS mixins =================================================================
-@mixin box-shadow($shadow) {-moz-box-shadow: $shadow; -webkit-box-shadow: $shadow; box-shadow: $shadow;}
 @mixin border-radius($radius) {-moz-border-radius: $radius; -webkit-border-radius: $radius; border-radius: $radius; background-clip: padding-box;}
-@mixin transition($transition) {-webkit-transition: $transition; -moz-transition: $transition; -o-transition: $transition; transition: $transition;}
-@mixin box-sizing($type) {-webkit-box-sizing: $type; -moz-box-sizing: $type; box-sizing: $type;}
-@mixin animate($animation, $speed) {-webkit-animation-duration:$speed; animation-duration:$speed;
-    -webkit-animation-fill-mode:both; animation-fill-mode:both;
-	-webkit-animation-name:$animation; animation-name:$animation;}
-@mixin noselect() {
-		-webkit-touch-callout: none; /* iOS Safari */
-		  -webkit-user-select: none; /* Safari */
-		   -khtml-user-select: none; /* Konqueror HTML */
-			 -moz-user-select: none; /* Firefox */
-			  -ms-user-select: none; /* Internet Explorer/Edge */
-				  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
-}
 
 // Resets and Universal Classes ================================================
 html, body {margin:0px; padding:0px; width:100%; overflow-x: hidden !important;}
@@ -241,50 +227,6 @@ body.project {
 		}
 	}
 	.left-align {text-align:left;}
-}
-body.mississippi {
-	.stats {
-		@include row;
-		margin-bottom:-20px;
-		.stat {
-			display:inline-block; vertical-align:top; margin-bottom:20px; margin-right:$pad;
-			.title {font-size:13px; text-transform:uppercase; margin-bottom:6px;}
-			.value {font-size:20px; font-weight:500;}
-			.note {font-size:12px; margin-top:4px;}
-		}
-		#day {font-size:46px; line-height:1;}
-	}
-	.days {
-		@include row;
-		table {width:100%;}
-		td {padding:10px 0px; border-top:1px solid $subtle_;}
-		tr.head td {font-weight:bold; border-top:0px;}
-		td.notecol {width:160px; @include breakpoint(s) {display:none;}}
-	}
-	.archives {
-		@include row;
-		.archive {
-			@include row;
-			& > .title {
-				font-size:18px; font-weight:300; @include noselect; cursor:pointer;
-				&:after {content:"\2193"; display:inline-block; margin-left:15px; margin-top:-2px; vertical-align:top;}
-			}
-			.list {
-				display:none; margin-top:20px;
-				.item {
-					margin-top:20px;
-					.title {font-weight:500;}
-					.note {font-size:14px; margin-top:6px;}
-					.time {font-size:13px; margin-top:4px;}
-				}
-			}
-			&.expanded {
-				& > .title:after {content:"\2191";}
-				.list {display:block;}
-			}
-		}
-	}
-	#map {@include row; width:100%; height:320px;}
 }
 body.reading {
 	.book {
