@@ -53,7 +53,7 @@ var filterByTag = function (tag) {
 		})
 	});
 
-	$(".pagetitle").append(" tagged with "+tag);
+	$("h1").append(" tagged with "+tag);
 };
 
 // Plugins ======================================================================

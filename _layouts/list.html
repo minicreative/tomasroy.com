@@ -18,6 +18,9 @@
         {% assign items = site.writing | sort:"date" | reverse %}
         {% for item in items %}
             {% if item.hide != true %}
+                {% capture item_css %}
+                    tagged {% for tag in item.tags %} {{ tag }}{% endfor %}
+                {% endcapture %}
                 {% assign item_link = item.url %}
                 {% assign item_title = item.title %}
                 {% capture item_detail %}

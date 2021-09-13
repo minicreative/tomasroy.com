@@ -1,6 +1,6 @@
 ---
 title: Reading
-permalink: "/reading"
+permalink: "/reading/"
 layout: list
 books:
 - title: The Fire Next Time
