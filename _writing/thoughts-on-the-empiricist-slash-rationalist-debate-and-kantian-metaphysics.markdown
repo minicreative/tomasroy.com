@@ -4,7 +4,7 @@ date: 2018-02-07 00:00:00 -05:00
 tags:
 - philosophy
 - metaphysics
-layout: post
+layout: page
 ---
 
 I have experienced an overwhelming concern with one primary intellectual debate for several years now, which I will introduce as the “rationalist vs. empiricist debate,” although I want it to be clear my concern is not limited to the scope of early modern Western philosophy. I am ultimately interested in what I find to be the most important philosophical inquiry — what is real, or what exists, an inquiry which I understand to be an “metaphysical” one. However, instead of attempting to jump into a manifesto in which I begin by defining by terms, which I have tried before, I am going to attempt to succinctly tell the story of my interest in this debate, and why it has become important to me.

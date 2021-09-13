@@ -1,9 +1,7 @@
 ---
 title: Reading
-permalink: "/reading/"
-date: 2019-01-08 15:56:00 -05:00
-css: reading
-layout: reading
+permalink: "/reading"
+layout: list
 books:
 - title: The Fire Next Time
   author: James Baldwin
@@ -244,5 +242,3 @@ books:
   author: J.D. Salinger
   month: March 2018
 ---
-
-The books I'm reading (and some passages that inspire me or stick out to me as relevant)

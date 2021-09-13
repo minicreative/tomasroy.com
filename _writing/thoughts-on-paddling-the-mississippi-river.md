@@ -3,7 +3,7 @@ title: Thoughts on paddling the Mississippi River
 date: 2018-07-15 00:00:00 -05:00
 tags:
 - travel
-layout: post
+layout: page
 ---
 
 I graduated from college in May of this year. When I finished high school, I was convinced that institutional education was the tool of an authority I didn't want to respect, a way to further coddle affluent children, the home of the worst kind of elitism, and a waste of time and money. While this understanding is in many ways misled, because college does provide opportunities to people that are incredibly beneficial and meaningful, I felt stubbornly convinced of it anyway. I decided to enroll after I got in to a good public school because I was privileged enough to be able to graduate without debt, but did so ultimately to appease my mother (she deserved appeasement).

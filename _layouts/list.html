@@ -1,0 +1,43 @@
+{% include head.html %}
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.content %}<div class="content">{{ page.content | markdownify }}</div>{% endif %}
+
+    {% if page.books %}
+        {% for book in page.books %}
+            {% assign item_title = book.title %}
+            {% assign item_subtitle = book.author %}
+            {% assign item_detail = book.month %}
+            {% assign item_content = book.description %}
+            {% include item.html %}
+        {% endfor %}
+    {% endif %}
+
+    {% if page.collection == "writing" %}
+        {% assign items = site.writing | sort:"date" | reverse %}
+        {% for item in items %}
+            {% if item.hide != true %}
+                {% assign item_link = item.url %}
+                {% assign item_title = item.title %}
+                {% capture item_detail %}
+                    {{ item.date | date: "%B %Y" }} / {{ item.content | number_of_words }} words
+                {% endcapture %}
+                {% assign item_content = item.content | strip_html | truncate: 150 %}
+                {% assign item_tags = item.tags %}
+                {% include item.html %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if page.collection == "projects" %}
+        {% assign items = site.projects | sort:"position" %}
+        {% for item in items %}
+            {% assign item_link = item.url %}
+            {% assign item_title = item.title %}
+            {% assign item_content = item.description %}
+            {% include item.html %}
+        {% endfor %}
+    {% endif %}
+	
+{% include foot.html %}

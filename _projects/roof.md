@@ -29,7 +29,7 @@ bullets:
 - title: Development Tools & Environments
   icon: fas fa-tools
   description: Github, Ubuntu Linux, Apache, nginx
-layout: project
+layout: page
 ---
 
 In the summer of 2015, following my Freshman year at UNC, I used to meet my friend Teddy at the coffeeshop to work on programming together. While I was working on websites for my freelance business, he was teaching himself Android development for a small project his friend Joao had started called Roof. Roof was a platform that helped roommates keep track of responsibilities, and it was born out of personal need: Joao (as well as me, Teddy, and most of our peers in Carrboro) lived in a house with 3 or more other people. Later that summer, after meeting Joao, I expressed interest and was graciously offered a spot on the team.

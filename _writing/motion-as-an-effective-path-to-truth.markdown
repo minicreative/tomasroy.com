@@ -4,7 +4,7 @@ date: 2016-04-11 13:55:00 -04:00
 tags:
 - travel
 - philosophy
-layout: post
+layout: page
 ---
 
 There are many good reasons that human beings tend to stay in one place. There are simple reasons, like familiarity, which leads to safety (a biological drive), and social consistency - history and biology demonstrate that we are fundamentally social beings. Human civilization and economies are based on geographically static lifestyles. On a personal level, there have most certainly been environments in which I’ve thrived because of static living - most of my life has been spent this way.

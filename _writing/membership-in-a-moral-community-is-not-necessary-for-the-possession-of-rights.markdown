@@ -4,7 +4,7 @@ date: 2015-04-23 15:14:00 -04:00
 tags:
 - assignment
 - philosophy
-layout: post
+layout: page
 ---
 
 In an article entitled “The Case for the Use of Animals in Biomedical Research,” University of Michigan law professor Carl Cohen asserts that the practice of performing scientific experiments involving animals should not be condemned or considered immoral. Cohen acknowledges that many who find animal experimentation immoral do so because of a belief that the practice violates an animal’s rights or exhibits a disregard for the suffering of a sentient creature, but he suggests that both sets of reasoning are incorrect. Cohen argues that the argument concerning the violation of an animal’s rights is unsound due to a “mistaken understanding of rights (865).”

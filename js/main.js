@@ -4,17 +4,17 @@
 
 // Run functions when document is ready
 $(document).ready(function () {
-	setRandomCornerImage();
+	setRandomBackground();
 	initializeGoogleAnalytics();
 	handleURLParameters();
 });
 
 // Functions ===================================================================
 
-var setRandomCornerImage = function () {
+var setRandomBackground = function () {
 	var i = Math.floor(Math.random() * Math.floor(5));
-	var cornerClass = "image-"+i;
-	$("#corner").addClass(cornerClass);
+	var bgclass = "bg-"+i;
+	$("body").addClass(bgclass);
 };
 
 var initializeGoogleAnalytics = function () {

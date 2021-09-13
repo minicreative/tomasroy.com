@@ -3,7 +3,7 @@ title: Truth is Beauty, Beauty is Truth?
 date: 2016-02-10 13:51:00 -05:00
 tags:
 - poetry
-layout: post
+layout: page
 ---
 
 It is beautiful  

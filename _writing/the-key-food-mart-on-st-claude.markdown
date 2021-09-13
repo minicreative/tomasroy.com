@@ -4,7 +4,7 @@ date: 2016-03-17 13:53:00 -04:00
 tags:
 - travel
 - story
-layout: post
+layout: page
 ---
 
 This semester I dropped out of school to read books, travel and drink beer with homeless people, which I've found is sometimes more educational and almost always more fun than living in an affluent college town, going to house parties where nothing is said, and cramming for somewhat arbitrary exams.

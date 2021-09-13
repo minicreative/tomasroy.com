@@ -1,0 +1,15 @@
+{% if item_link %}<a href="{{ item_link }}">{% endif %}
+    <div class="item">
+        <h2>{{ item_title }}</h2>
+        {% if item_subtitle %}<h3>{{ item_subtitle }}</h3>{% endif %}
+        {% if item_detail %}<div class="detail">{{ item_detail }}</div>{% endif %}
+        {% if item_content %}<div class="content">{{ item_content | markdownify }}</div>{% endif %}
+        {% if item_tags.size > 0 %}
+            <div class="tags">
+                {% for tag in item_tags %}
+                    <a href="/writing?tag={{tag}}"><span class="{{ tag }}">{{ tag }}</span></a>
+                {% endfor %}
+            </div>
+		{% endif %}
+    </div>
+{% if item_link %}</a>{% endif %}

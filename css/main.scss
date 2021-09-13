@@ -5,7 +5,7 @@
 @mixin border-radius($radius) {-moz-border-radius: $radius; -webkit-border-radius: $radius; border-radius: $radius; background-clip: padding-box;}
 
 // Resets and Universal Classes ================================================
-html, body {margin:0px; padding:0px; width:100%; overflow-x: hidden !important;}
+html, body {margin:0px; padding:0px; width:100%; min-height:100%; overflow-x: hidden !important;}
 h1, h2, h3, h4, h5, h6 {margin:0px;}
 img {max-width:100%; border:0px;}
 a {text-decoration:none; color:inherit;}
@@ -15,110 +15,127 @@ input, textarea {border:0px; font-family:inherit; -webkit-appearance: none;}
 input:focus, textarea:focus {outline:none;}
 .clear {clear:both;}
 
-// Responsive Layout Scheme ====================================================
-
 // Spacing Variables
 $pad: 30px; // default and standard
 $pad_: 20px; // tablet and mobile
+$spacer: 45px;
+$spacer_: 30px;
 
 // breakpoint: reponsive adaptation mixin
 @mixin breakpoint($point) {
+	// tablet
+    @if $point == m{
+        @media screen and (max-width: 900px)  {@content;}
+    }
 	// mobile
     @if $point == s {
         @media screen and (max-width: 760px)  {@content;}
     }
 	// small mobile
     @else if $point == xs {
-        @media screen and (max-width:440px) {@content;}
+        @media screen and (max-width:375px) {@content;}
     }
-}
-
-// Container
-.container {position:relative; margin:0px auto;
-	width:720px; margin:0px auto;
-	@include breakpoint(s) {width:auto; margin:0px $pad;}
-	@include breakpoint(xs) {margin:0px $pad_;}
 }
 
 // Spacing
 @mixin row {margin-top:$pad; @include breakpoint(xs) {margin-top:$pad_;}}
-@mixin rowpad {padding-top:$pad; @include breakpoint(xs) {padding-top:$pad_;}}
-@mixin rowpad_ {padding-top:50px; @include breakpoint(xs) {padding-top:30px;}}
+@mixin spacer {margin-top:$spacer; @include breakpoint(xs) {margin-top:$spacer_;}}
 
 // Colors, Fonts, Frills =======================================================
-
 $text: #222;
 $text_subtle: #999;
 $subtle: #ddd;
 $subtle_: #ccc;
 
+// Backgrounds
+body {
+	background-position:center center; background-attachment:fixed; background-size:cover;
+	&.bg-0 {background-image:url("/uploads/30.jpg");}
+	&.bg-1 {background-image:url("/uploads/40.jpg");}
+	&.bg-2 {background-image:url("/uploads/41.jpg");}
+	&.bg-3 {background-image:url("/uploads/53.jpg");}
+	&.bg-4 {background-image:url("/uploads/57.jpg");}
+}
+
 // Fonts
-body {font-family:'Avenir', 'Helvetica', 'Arial', sans-serif; font-size:16px; 
-	line-height:1.2; font-weight:400; color:$text;}
-em {font-weight:400; font-style:italic;}
+body {
+	font-family:'Avenir', 'Helvetica', 'Arial', sans-serif; font-size:16px; 
+	line-height:1.4; font-weight:300; color:$text;
+}
+em {font-weight:400;}
 b {font-weight:700;}
+
 h1 {
-	font-size:36px; line-height:1.2; 
-	@include breakpoint(xs) {font-size:30px;}
+	font-size:32px;
+	@include breakpoint(xs) {font-size:28px;}
 }
-h2 {
-	font-size:24px; line-height:1.2; font-weight:400; margin-top:10px;
-	@include breakpoint(xs) {font-size:22px;}
-}
-a {border-bottom:1px solid $subtle; &:hover {border-bottom:1px solid $subtle_;}}
-.detail {color:$text_subtle; margin-top:8px;}
-.pagetitle:before {
-	content:""; float:right; width:150px; height:30px;
-	@include breakpoint(xs) {width:30px;}
-}
+h2 {font-size:20px; font-weight:700;}
+h3 {font-size:18px; font-weight:400;}
+.detail {color:$text_subtle; margin-top:10px;}
 
-// Basic Layout Elements ========================================================
-
-#corner {
-	position:absolute; top:0px; left:40%; width:60%; height:18vw; max-height:260px;
-	background-size:cover; background-repeat:no-repeat; z-index:20;
-	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%); clip-path: polygon(100% 0, 0 0, 100% 100%);
-	@include breakpoint(xs) {left:auto; right:0px; height:150px; width:150px;}
-	
-	&.image-0 {background-image:url("/uploads/30.jpg");}
-	&.image-1 {background-image:url("/uploads/40.jpg");}
-	&.image-2 {background-image:url("/uploads/41.jpg");}
-	&.image-3 {background-image:url("/uploads/53.jpg");}
-	&.image-4 {background-image:url("/uploads/57.jpg");}
-}
-_:-ms-lang(x), #corner {display:none;}
-
-header {
-	margin-top:$pad; padding-bottom:10px;
-	a, a:hover {border-bottom:0px;}
-	.headshot, .title {display:inline-block; vertical-align:top;}
-	.headshot {margin-right:16px; height:48px; width:48px; @include border-radius(50%);}
-	.title {font-size:30px; font-weight:700; line-height:48px; text-transform:lowercase;}
-	.navigation {
-		margin-top:10px;
-		a {
-			display:inline-block; margin-right:20px; font-size:16px;
-			padding-bottom:2px; border-bottom:1px solid rgba(0,0,0,0);
-		}
+// Links
+@mixin link {
+	a {
+		border-bottom:1px solid $subtle; 
+		&:hover {border-bottom:1px solid $subtle_;}
 	}
 }
 
+// Layout ====================================================
+
+.container {
+	position:relative; margin-left:20px; background:white; width:860px; padding-top:1px;
+	@include breakpoint(m) {margin:0px 20px; width:auto;}
+	@include breakpoint(s) {margin:0px; margin-left:10px;}
+}
+
+header {
+	position:fixed; left:20px; top:30px;
+	.headshot {margin-left:20px; height:48px; width:48px; @include border-radius(50%);}
+	.navigation {
+		margin-top:10px;
+		a {
+			display:block; padding-left:20px; line-height:1.5; color:$text_subtle;
+			&:hover {color:$text;}
+		}
+	}
+	@include breakpoint(s) {
+		position:relative; top:auto; left:auto; margin-top:$pad; padding-left:$pad;
+		.headshot {margin:0px;}
+		.navigation a {display:inline-block; padding:0px; margin-right:12px;}
+	}
+	@include breakpoint(xs) {
+		margin-top:$pad_; padding-left:$pad_;
+	}
+}
+
+.main {
+	margin-left:120px; padding:$pad;
+	@include breakpoint(s) {margin-left:0px;}
+	@include breakpoint(xs) {padding:$pad_;}
+}
+
+.item {
+	@include spacer;
+	.detail {font-size:14px; margin-top:0px;}
+}
+
 .content {
-	@include row; font-size:18px; font-weight:300; line-height:1.6;
-	@include breakpoint(xs) {font-size:16px; line-height:1.5;}
+	line-height:1.5; @include link;
 }
 
-.return-link {
-	display:block; margin:30px 0px;
-	text-align:center; color:#999; font-size:16px;
-	.container & {text-align:left;}
-
-	border-bottom:0px; &:hover {border-bottom:0px;}
+footer {
+	@include spacer; color:$text_subtle;
+	p {margin:0px;}
 }
+
+// Basic Elements ========================================================
+.row {@include row;}
+.spacer {@include spacer;}
 
 .tags {
-	margin:10px 0px -10px;
-	span {display:inline-block; margin-right:10px; margin-bottom:10px; padding:4px 6px; line-height:1;
+	margin:10px 0px -6px;
+	span {display:inline-block; margin-right:6px; margin-bottom:6px; padding:4px 6px; line-height:1;
 		border:1px solid $subtle_; font-size:13px; @include border-radius(2px);}
 	span:hover, span.active {background:$subtle;}
 	a {border:0px;}
@@ -130,110 +147,61 @@ header {
 	img {margin-top:5%; width:96%; display:inline-block;}
 }
 
-.post-item {
-	@include row; @include rowpad; border-top:1px solid $subtle;
-	.title {font-size:20px; font-weight:500;}
-	.detail {margin-top:0px; font-size:14px;}
-	.description {margin-top:10px;}
+.buttons {
+	@include row; @include link;
+	a {display:inline-block; margin-right:15px;}
 }
 
-.project-item {
-	@include rowpad_;
-	.screen {float:left; width:400px; height:240px; margin-right:$pad;}
-	.title {padding-top:80px; font-size:20px; font-weight:500;}
-	.description {margin-top:10px; line-height:1.4; font-weight:300;}
-	&.even {
-		background:#f8f8f8;
-		.screen {float:right; margin-left:$pad; margin-right:0px;}
-	}
-	@include breakpoint(s) {
-		text-align:center; margin-bottom:30px;
-		&.even {background:none;}
-		.screen, &.even .screen {float:none; margin:0px auto; width:100%; height:auto; max-width:400px; max-height:240px;}
-		.title {padding-top:30px;}
+.screens {
+	@include spacer; margin-right:-30px; overflow-x:scroll; white-space:nowrap; text-align:center; 
+	@include breakpoint(xs) {padding:0px 10px;}
+	.screen-item {
+		display:inline-block; vertical-align:top;
+		margin-right:$pad; width:480px; padding:0px 0px 30px;
+		white-space:normal; text-align:left;
+		@include breakpoint(s) {width:440px;}
+		@include breakpoint(xs) {width:400px; margin:0px 10px;}
+		.screen {
+			display:block; width:100%; max-height:360px;
+			@include breakpoint(s) {max-height:300px;}
+			@include breakpoint(xs) {max-height:260px;}
+			img {margin-left:2%; margin-right:2%;}
+		}
+		.caption {display:block; margin-top:15px; width:80%;
+			font-size:14px; font-weight:300; line-height:1.5; color:$text_subtle;}
 	}
 }
 
-.contact-item {
+.bullets {
+	.bullet {
+		@include row; position:relative; padding-left:44px;
+		.icon {position:absolute; top:0px; left:0px; color:#666; line-height:1.5;}
+		h2 {font-size:20px; line-height:1;}
+		strong {font-weight:400;}
+		p:first-of-type {margin-top:8px;}
+		p:last-of-type {margin-bottom:0px;}
+	}
+}
+
+.study {
 	@include row;
-	i {display:inline-block; font-size:32px; line-height:1; margin-right:15px; vertical-align:top;}
-	span {vertical-align:top; font-size:20px; font-weight:300; line-height:32px;}
-}
-
-footer {
-	@include row; padding:$pad 0px; border-top:1px solid $subtle; 
-	color:$text_subtle;
-	p {margin:0px;}
+	img {
+		max-width:300px; max-height:80px;
+		@include breakpoint(s) {
+			width:100%; max-width:100%;
+		}
+	}
+	.links {
+		margin-top:10px;
+		a {display:inline-block; margin-right:15px;}
+	}
 }
 
 // Page-specific Styles ========================================================
 body.home {
-	.content {font-size:22px;}
-}
-body.post {
-	.tags {margin:10px 0px 20px;}
-}
-body.projects {
-	footer {margin-top:0px;}
-}
-body.project {
-	text-align:center;
-	#corner {display:none;}
-	.buttons {
-		a {display:inline-block; margin:0px 8px;}
-	}
-	.screens {
-		margin:$pad 0px; padding:0px 15px; overflow-x:scroll; white-space:nowrap; text-align:center; 
-		@include breakpoint(xs) {padding:0px 10px;}
-		.screen-item {
-			display:inline-block; vertical-align:top;
-			margin:0px 15px; width:540px; padding:0px 0px 30px;
-			white-space:normal; text-align:left;
-			@include breakpoint(s) {width:440px;}
-			@include breakpoint(xs) {width:400px; margin:0px 10px;}
-			.screen {
-				display:block; width:100%; max-height:360px;
-				@include breakpoint(s) {max-height:300px;}
-				@include breakpoint(xs) {max-height:260px;}
-				img {margin-left:2%; margin-right:2%;}
-			}
-			.caption {display:block; margin-top:15px; width:80%;
-				font-size:14px; font-weight:300; line-height:1.5; color:$text_subtle;}
-		}
-	}
-	.bullets {
-		@include row; padding-top:1px; padding-bottom:$pad; background:#f5f5f5;
-		@include breakpoint(s) {padding-bottom:$pad_;}
-		.bullet {
-			@include row; position:relative; padding-left:44px;
-			.icon {position:absolute; top:0px; left:0px; color:#666; line-height:1.5;}
-			h2 {font-size:20px; line-height:1;}
-			line-height:1.5; font-weight:300;
-			strong {font-weight:400;}
-			p:last-of-type {margin-bottom:0px;}
-		}
-	}
-	.study {
-		@include row;
-		img {
-			max-width:300px; max-height:80px;
-			@include breakpoint(s) {
-				width:100%; max-width:100%;
-			}
-		}
-		.links {
-			margin-top:10px;
-			a {display:inline-block; margin-right:15px;}
-		}
-	}
-	.left-align {text-align:left;}
-}
-body.reading {
-	.book {
-		margin-top:50px;
-		.date {font-size:14px; color:$text_subtle;}
-		.quotes {font-size:16px;}
-	}
+	.content {font-size:18px;}
+	.content.row {margin-top:10px;}
+	.content p:first-of-type {margin-top:0px;}
 }
 
 // Imports =====================================================================

@@ -18,20 +18,23 @@
 		<script type="text/javascript" src="/js/main.js"></script>
 
 	</head>
-	<body class="{{ page.layout }}{% if page.css %} {{ page.css }}{% endif %}">
+	<body {% if page.css %}class="{{ page.css }}"{% endif %}>
 
-		<!-- Corner -->
-		<div id="corner"></div>
+		<div class="container">
 		
-		<!-- Header -->
-		<header>
-			<div class="container">
+			<!-- Header -->
+			<header>
 				<a href="/">
 					<img src="{{ site.headshot }}" class="headshot" />
-					<div class="title">{{ site.title }}</div>
 				</a>
-			</div>
-		</header>
+				<div class="navigation">
+				{% for page in site.nav %}
+					<a href="{{ page.url }}">{{ page.title }}</a>
+				{% endfor %}
+				</div>
+			</header>
+
+			<div class="main">
 
 
 	

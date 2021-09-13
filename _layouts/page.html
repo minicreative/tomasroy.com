@@ -1,0 +1,86 @@
+{% include head.html %}
+
+	{% if page.hideTitle != true %}
+	<h1>{{ page.title }}</h1>
+	{% endif %}
+
+	{% if page.description %}
+	<div class="content description">{{ page.description | markdownify }}</div>
+	{% endif %}
+
+	{% if page.date %}
+	<div class="detail">{{ page.date | date: "%B %Y" }}</div>
+	{% endif %}
+
+	{% if page.tags %}
+	<div class="tags">
+		{% for tag in page.tags %}<a href="/writing?tag={{tag}}"><span class="{{ tag }}">{{ tag }}</span></a>{% endfor %}
+	</div>
+	{% endif %}
+
+	{% if page.buttons %}
+	<div class="buttons">
+		{% for button in page.buttons %}
+		<a href="{{ button.url }}">{{ button.name }}</a>
+		{% endfor %}
+	</div>
+	{% endif %}
+
+	{% if page.screens %}
+	<div class="screens">
+		{% for screen in page.screens %}
+		<div class="screen-item">
+			<div class="screen"><img src="{{ screen.image }}" /></div>
+			<span class="caption">{{ screen.caption }}</span>
+		</div>
+		{% endfor %}
+	</div>
+	{% endif %}
+
+	{% if page.content %}
+	<div class="content row">{{ page.content | markdownify }}</div>
+	{% endif %}
+
+	{% if page.bullets %}
+	<div class="bullets">
+		{% for bullet in page.bullets %}
+		<div class="bullet">
+			<div class="icon {{ bullet.icon }}"></div>
+			<h3>{{ bullet.title }}</h3>
+			{% if bullet.description %}
+				<div class="content">{{ bullet.description | markdownify }}</div>
+			{% endif %}
+			<div class="clear"></div>
+		</div>
+		{% endfor %}
+	</div>
+	{% endif %}
+
+	{% if page.studies %}
+	<div class="spacer">
+		<h2>Case Studies</h2>
+		{% for study in page.studies %}
+		<div class="study row">
+		
+			{% if study.image %} 
+				<img src="{{ study.image }}" />
+			{% else %}
+				<h2>{{ study.title}}</h2>
+			{% endif %}
+
+			<div class="content">{{ study.description | markdownify }}</div>
+			
+			{% if study.buttons %}
+			<div class="buttons">
+				{% for button in study.buttons %}
+					<a href="{{ button.url }}">{{ button.title }}</a>
+				{% endfor %}
+			</div>
+			{% endif %}
+
+		</div>
+		{% endfor %}
+	</div>
+	{% endif %}
+
+{% include foot.html %}

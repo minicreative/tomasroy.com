@@ -22,7 +22,7 @@ bullets:
 - title: Development Tools & APIs
   icon: fas fa-tools
   description: Github, Google Maps API
-layout: project
+layout: page
 ---
 
 Thesis was an iteration of software idea I was exceedingly passionate about in my first years at university. The fundamental principle was simple enough: build an alternative to Tinder that wouldn't allow people to judge one another based on their appearance or even their name, one that would also encourage face-to-face communication as soon as possible. The idea was a reaction to two sad realities I observed on my college campus: people spent too much time on their phones, and people tended to hang out around people they had a lot in common with despite an overwhelming amount of diversity.

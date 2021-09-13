@@ -1,6 +1,7 @@
 ---
 title: Writing
 permalink: "/writing/"
-layout: writing
+layout: list
+collection: writing
 ---
 
