@@ -1,6 +1,6 @@
 {% if item_link %}<a href="{{ item_link }}">{% endif %}
     <div class="item{% if item_css %} {{ item_css }}{% endif %}">
-        <h2>{{ item_title }}</h2>
+        {% if item_title %}<h2>{{ item_title }}</h2>{% endif %}
         {% if item_subtitle %}<h3>{{ item_subtitle }}</h3>{% endif %}
         {% if item_detail %}<div class="detail">{{ item_detail }}</div>{% endif %}
         {% if item_content %}<div class="content">{{ item_content | markdownify }}</div>{% endif %}

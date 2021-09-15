@@ -6,8 +6,9 @@
 
     {% if page.books %}
         {% for book in page.books %}
-            {% assign item_title = book.title %}
-            {% assign item_subtitle = book.author %}
+            {% capture item_subtitle %}
+                <b>{{ book.author }}</b> &mdash; {{ book.title }}
+            {% endcapture %}
             {% assign item_detail = book.month %}
             {% assign item_content = book.description %}
             {% include item.html %}
