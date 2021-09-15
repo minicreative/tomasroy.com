@@ -38,6 +38,7 @@
         {% for item in items %}
             {% assign item_link = item.url %}
             {% assign item_title = item.title %}
+            {% assign item_detail = item.months %}
             {% assign item_content = item.description %}
             {% include item.html %}
         {% endfor %}

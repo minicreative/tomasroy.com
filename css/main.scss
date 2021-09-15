@@ -25,7 +25,7 @@ $spacer_: 30px;
 @mixin breakpoint($point) {
 	// tablet
     @if $point == m{
-        @media screen and (max-width: 900px)  {@content;}
+        @media screen and (max-width: 920px)  {@content;}
     }
 	// mobile
     @if $point == s {
@@ -84,13 +84,13 @@ h3 {font-size:18px; font-weight:400;}
 // Layout ====================================================
 
 .container {
-	position:relative; margin-left:20px; background:white; width:860px; padding-top:1px;
+	position:relative; margin-left:20px; background:white; width:880px; padding-top:1px;
 	@include breakpoint(m) {margin:0px 20px; width:auto;}
 	@include breakpoint(s) {margin:0px; margin-left:10px;}
 }
 
 header {
-	position:fixed; left:20px; top:30px;
+	position:fixed; left:20px; top:0px; background:white; z-index:20; width:120px; padding:$pad 0px;
 	.headshot {margin-left:20px; height:48px; width:48px; @include border-radius(50%);}
 	.navigation {
 		margin-top:10px;
@@ -100,17 +100,18 @@ header {
 		}
 	}
 	@include breakpoint(s) {
-		position:relative; top:auto; left:auto; margin-top:$pad; padding-left:$pad;
+		position:relative; top:auto; left:auto; margin-top:$pad; padding:0px $pad; width:auto;
 		.headshot {margin:0px;}
 		.navigation a {display:inline-block; padding:0px; margin-right:12px;}
 	}
 	@include breakpoint(xs) {
-		margin-top:$pad_; padding-left:$pad_;
+		margin-top:$pad_; padding:0px $pad_;
 	}
 }
 
 .main {
-	margin-left:120px; padding:$pad;
+	margin-left:120px; padding:$pad 80px $pad $pad;
+	@include breakpoint(m) {padding:$pad;}
 	@include breakpoint(s) {margin-left:0px;}
 	@include breakpoint(xs) {padding:$pad_;}
 }
@@ -153,8 +154,8 @@ footer {
 }
 
 .screens {
-	@include spacer; margin-right:-$pad; overflow-x:scroll; white-space:nowrap; text-align:center; 
-	@include breakpoint(xs) {margin-right:-$pad_;}
+	@include spacer; margin-left:-150px; margin-right:-80px; overflow-x:scroll; white-space:nowrap; text-align:center; 
+	@include breakpoint(xs) {margin:0px -$pad_;}
 	.screen-item {
 		display:inline-block; vertical-align:top;
 		margin-right:$pad; width:480px; padding:0px 0px 30px;
@@ -162,13 +163,25 @@ footer {
 		@include breakpoint(s) {width:440px;}
 		@include breakpoint(xs) {width:400px; margin-right:$pad_;}
 		.screen {
-			display:block; width:100%; max-height:330px;
+			display:block; width:100%; max-height:320px;
 			@include breakpoint(s) {max-height:300px;}
 			@include breakpoint(xs) {max-height:260px;}
 			img {margin-left:2%; margin-right:2%;}
 		}
 		.caption {display:block; margin-top:15px; width:80%;
 			font-size:14px; font-weight:300; line-height:1.5; color:$text_subtle;}
+	}
+	.screen-item:first-of-type {margin-left:150px;}
+	@include breakpoint(m) {
+		margin-right:-$pad;
+	}
+	@include breakpoint(s) {
+		margin-left:-$pad;
+		.screen-item:first-of-type {margin-left:$pad;}
+	}
+	@include breakpoint(xs) {
+		margin-left:-$pad_;
+		.screen-item:first-of-type {margin-left:$pad_;}
 	}
 }
 

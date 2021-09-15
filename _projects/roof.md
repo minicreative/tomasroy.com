@@ -1,8 +1,9 @@
 ---
 title: Roof
 position: 1
-description: A platform which provides tools for roommates to better share their homes
-  and for landlords to better maintain their properties.
+description: A platform which provides tools for roommates to share their homes
+  and for landlords to maintain their properties.
+months: August 2015 - April 2018
 screens:
 - image: "/uploads/roof1.png"
   caption: Property management dashboard

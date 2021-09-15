@@ -3,6 +3,7 @@ title: MiniCreative
 position: 0
 description: My freelance website design & development endeavor which has served over
   50 clients with a variety of different needs.
+months: November 2009 - present
 screens:
 - image: "/uploads/minicreative1.png"
   caption: My portfolio website

@@ -3,6 +3,7 @@ title: "¢Change"
 position: 2
 description: A social sharing prototype which aims to encourage people to publicly
   support the causes they care about and nudge their friends to do the same.
+months: August 2017 - November 2017
 screens:
 - image: "/uploads/cchange1.png"
   caption: Visitors and users can browse for charities and specific charity campaigns
