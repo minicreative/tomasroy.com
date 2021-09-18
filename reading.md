@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Moviegoer
+  author: Walker Percy
+  month: September 2021
 - title: The Fire Next Time
   author: James Baldwin
   month: September 2021
