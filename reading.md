@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Nine Stories
+  author: J.D. Salinger 
+  month: September 2021
 - title: The Moviegoer
   author: Walker Percy
   month: September 2021
