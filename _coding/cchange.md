@@ -1,6 +1,6 @@
 ---
 title: "¢Change"
-position: 2
+position: 5
 description: A social sharing prototype which aims to encourage people to publicly
   support the causes they care about and nudge their friends to do the same.
 months: August 2017 - November 2017

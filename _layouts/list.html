@@ -34,8 +34,8 @@
         {% endfor %}
     {% endif %}
 
-    {% if page.collection == "projects" %}
-        {% assign items = site.projects | sort:"position" %}
+    {% if page.collection == "coding" %}
+        {% assign items = site.coding | sort:"position" %}
         {% for item in items %}
             {% assign item_link = item.url %}
             {% assign item_title = item.title %}

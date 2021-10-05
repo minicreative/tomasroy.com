@@ -12,6 +12,6 @@ I'm a 20-something from North Carolina, currently living in New Orleans, where I
 
 I'm fascinated by the concept of truth, and I like to practice a generous faith in humanity.
 
-Most of my convictions are motivated by a belief that many of the world's ails are the result of the separation humans have constructed between ourselves and the rest of the natural world.
+Many of my convictions are motivated by a belief that most of the world's ails are the result of the separation humans have constructed between ourselves and the rest of the natural world.
 
-I'm using my website as an open inventory of the [reading](/reading), [writing](/writing), and [projects](/projects) I'm working on, primarily as a way to keep myself accountable.
+I'm using my website as an open inventory of the [reading](/reading), [writing](/writing), and [coding](/coding) I'm working on, primarily as a way to keep myself accountable.
