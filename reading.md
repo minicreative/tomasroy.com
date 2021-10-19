@@ -3,6 +3,12 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Post-Scarcity Anarchism
+  author: Murray Bookchin
+  month: October 2021
+- title: "They Called Us River Rats: The Last Batture Settlement of New Orleans"
+  author: Macon Fry
+  month: October 2021
 - title: Nine Stories
   author: J.D. Salinger 
   month: September 2021
