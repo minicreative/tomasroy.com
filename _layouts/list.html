@@ -27,7 +27,7 @@
                 {% capture item_detail %}
                     {{ item.date | date: "%B %Y" }} / {{ item.content | number_of_words }} words
                 {% endcapture %}
-                {% assign item_content = item.content | strip_html | truncate: 150 %}
+                {% assign item_content = item.content | strip_html | newline_to_br | truncate: 150 %}
                 {% assign item_tags = item.tags %}
                 {% include item.html %}
             {% endif %}

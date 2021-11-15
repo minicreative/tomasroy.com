@@ -2,7 +2,6 @@
 title: Motion as an Effective Path to Truth
 date: 2016-04-11 13:55:00 -04:00
 tags:
-- travel
 - philosophy
 layout: page
 ---

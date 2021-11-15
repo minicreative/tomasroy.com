@@ -1,8 +1,6 @@
 ---
 title: Thoughts on paddling the Mississippi River
 date: 2018-07-15 00:00:00 -05:00
-tags:
-- travel
 layout: page
 ---
 

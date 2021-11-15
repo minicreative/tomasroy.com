@@ -2,7 +2,6 @@
 title: The Key Food Mart on Rampart Street
 date: 2016-03-17 13:53:00 -04:00
 tags:
-- travel
 - story
 layout: page
 ---
