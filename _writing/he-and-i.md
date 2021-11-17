@@ -3,7 +3,7 @@ title: He and I
 date: 2021-11-13 00:00:00 -04:00
 tags:
 - story
-hide: false
+hide: true
 layout: page
 ---
 
