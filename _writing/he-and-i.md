@@ -3,7 +3,6 @@ title: He and I
 date: 2021-11-13 00:00:00 -04:00
 tags:
 - story
-hide: true
 layout: page
 ---
 
@@ -25,7 +24,7 @@ A few days before waking up in the abandoned warehouse, I wake up in the common 
 
 I eventually make it out of Athens and into Atlanta after getting a ride from a pastor and his sidekick. We take a small detour, stopping to fill a minivan with nearly expired bread from from a factory and drop it off at their church for distribution. By evening I arrive at the house of a man who lets strangers sleep on his couch. We go out together. When we get home, he tells me I don't have to sleep on the couch if I don't want to.
 
-Arriving in Baton Rouge, my Denver-bound friend and I pull the Honda Civic off I-10. I meet him sitting on his front porch on Christian Street. He is smoking a cigarette. He feeds me and my friend quinoa. He takes us to an old industrial structure that looks out over the river. I fall asleep on his couch watching Linklater's *Waking Life.* I am not sure if what I'm seeing is the movie's unusual animation or afterglow from the night before. I am pretty sure that I've made a new friend.
+Arriving in Baton Rouge, my Denver-bound friend and I pull the Honda Civic off I-10. I meet him sitting on his front porch on Christian Street. He is smoking a cigarette. He feeds me and my friend quinoa. He takes us to an old industrial structure that looks out over the river. I fall asleep watching Linklater's *Waking Life.* I am not sure if what I'm seeing is the movie's unusual animation or afterglow from the night before. I am pretty sure that I've made a new friend.
 
 —
 
@@ -45,7 +44,7 @@ A few hours before he and I are sitting down to watch *Paris, Texas*, we're sitt
 
 He and I first sleep together when I show up at his house two years after meeting him on my way to Denver. I've just dropped out of school because I'm having a really hard time getting over a breakup with my first boyfriend, who lives on the same block as I do in Carrboro. I'm living in my Honda Civic, and after it breaks down in Newnan, Georgia and I spend 4 days sleeping in the mechanic's parking lot, I finally make it to Baton Rouge with less than $100.
 
-On our second visit, he and I get to know each other better. He tells me about his decade-long stint as a train-hopping street kid, about the cheap apartments on Leeway in Baton Rouge where he used to shoot heroin, about his sugar momma and the child they had together, about that child dying from SIDS. He tells me about getting clean in a Jeep in the desert, and about the work he's doing now in Baton Rouge — lobbying and drafting legislation to make Narcan accessible for overdose prevention. At 28, he's preparing to start a pre-med undergrad at LSU.
+On our second visit, he and I get to know each other better. He tells me about his decade-long stint as a train-hopping street kid, about the cheap apartments on Leeway in Baton Rouge where he used to shoot heroin, about friend he got clean with and the child they had together, about that child dying from SIDS. He tells me the work he's doing now in Baton Rouge — lobbying and drafting legislation to make Narcan accessible for overdose prevention. At 28, he's preparing to start a pre-med undergrad at LSU.
 
 Weeks later, I'm back down in New Orleans, living in a tent on a whacky property right on the other side of the Industrial Canal. He and I meet at the waterfront in the Quarter. He tells me he loves me. I don't know how to respond.
 

@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Eighth Day
+  author: Thorton Wilder
+  month: December 2021
 - title: Capitalist Realism
   author: Mark Fisher
   month: November 2021
