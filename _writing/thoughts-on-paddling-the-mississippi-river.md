@@ -1,5 +1,5 @@
 ---
-title: Thoughts on paddling the Mississippi River
+title: Thoughts on deciding to paddle the Mississippi River
 date: 2018-07-15 00:00:00 -05:00
 layout: page
 ---
