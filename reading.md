@@ -3,6 +3,12 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Baron in the Trees
+  author: Italo Calvino
+  month: January 2021
+- title: "The Right to Sex: Feminism in the 21st Century"
+  author: Amia Srinivasan
+  month: January 2021
 - title: The Eighth Day
   author: Thorton Wilder
   month: December 2021
