@@ -8,7 +8,7 @@ hideTitle: true
 
 Hey, my name's Tomas.
 
-I'm a 20-something from North Carolina, currently living in New Orleans, where I'm building homes and biking around.
+I'm a 20-something living in New Orleans, where I'm building homes and biking around. I grew up in North Carolina.
 
 I'm fascinated by the concept of truth, and I like to practice a generous faith in humanity.
 
