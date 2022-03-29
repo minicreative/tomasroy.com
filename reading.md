@@ -3,6 +3,12 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Heavenly Breakfast
+  author: Samuel L. Delany
+  month: March 2021
+- title: The Control of Nature
+  author: John McPhee
+  month: March 2021
 - title: Native Son
   author: Richard Wright
   month: March 2021
