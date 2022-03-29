@@ -24,6 +24,9 @@ books:
 - title: Capitalist Realism
   author: Mark Fisher
   month: November 2021
+- title: Giovanni's Room
+  author: James Baldwin
+  month: November 2021
 - title: "They Called Us River Rats: The Last Batture Settlement of New Orleans"
   author: Macon Fry
   month: October 2021
