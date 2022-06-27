@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: This is How You Lose Her
+  author: Junot Diaz
+  month: June 2021
 - title: The Overstory
   author: Richard Powers
   month: April 2021
