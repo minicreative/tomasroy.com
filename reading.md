@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: A Streetcar Named Desire
+  author: Tennessee Williams
+  month: July 2021
 - title: This is How You Lose Her
   author: Junot Diaz
   month: June 2021
