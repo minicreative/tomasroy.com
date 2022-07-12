@@ -3,30 +3,47 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Grapes of Wrath
+  author: John Steinbeck
+  month: July 2022 (2nd read)
+  description: |-
+    "I'm glad you tol' me," said Casy. "I use to think it was jus' me. Finally it give me such pain I guit an' went off by myself an' give her a damn good thinkin' about." He doubled up his legs and scratched between his dry dusty toes. "I says to myself, 'What's gnawin' you? Is it the screwin'?' An' I says, 'No, it's the sin.' An' I says, 'Why is it that when a fella ought to be just about mule-ass proof against sin, an' all full up of Jesus, why is it that's the time a fella gets fingerin' his pants buttons?'" He laid two fingers down in his palm in rhythm, as though he gently placed each word there side by side. "I says, 'Maybe it ain't a sin. Maybe it's just the way folks is. Maybe we been whippin' the hell out of ourselves for nothing'.' An' I thought how some sisters took to beatin' theirselves with a three-foot shag of bobwire. An' I thought how maybe they liked to hurt themselves, an' maybe I liked to hurt myself. Well, I was layin' under a tree when I figured that out, and I went to sleep. And it come night, an' it was dark when I come to. They was a coyote squawkin' near by. Before I knowed it, I was sayin out loud, 'The hell with it! There ain't no sin and there ain't no virtue. There's just stuff people do. It's all part of the same thing. And some of the things folks do is nice, and some ain't nice. but that's as far as any man got a right to say.'" He paused and looked up from the palm of his hand, where he had laid down the words.
+
+    Joad was grinning at him, but Joad's eyes were sharp and interested, too. "You giver her a goin'-over," he said. "You figured her out."
+
+    Casy spoke again, and his voice rang with pain and confusion. "I says, 'What's this call, this sperit?' An' I says, 'It's love. I love people so much I'm fit to bust, sometimes.' An' I says, 'Don't you love Jesus?' Well, I thought an' thought, an' finally I says, 'No, I don't know nobody name' Jesus. I know a bunch of stories, but I love people. An' sometimes I love 'em fit to bust, an' I want to make 'em happy, so I been preachin' somepin I thought would make 'em happy.' An' then -- I been talkin' a hell of a lot. Maybe you wonder about me using bad words. Well, they ain't bad to me no more. They're jus' words folks use, an' they don't mean nothing bad with 'em. Anyways, I'll tell you one more things I thought out; an' from a preacher it's the most unreligious thing, and I can't be a preacher no more because I thought it an' I believe it."
+
+    "What's that?" Joad asked.
+    
+    Casy looked shyly at him. "If it hits you wrong, don't take no offense at it, will you?"
+
+    "I don't take no offense 'cept a bust in the nose," said Joad. "What did you figger?"
+
+    "I figgered about the Holy Sperit and the Jesus road. I figgered, 'Why do we got to hang it on God or Jesus? Maybe,' I figgered, 'maybe it's all men an' all women we love; maybe that's the Holy Sperit -- the big human sperit -- the whole shebang. Maybe all men got one big soul ever'body's a part of.' Now I sat there thinkin' it, an' all of a suddent -- I knew it. I knew it so deep down that it was true, and I still know it."
 - title: A Streetcar Named Desire
   author: Tennessee Williams
-  month: July 2021
+  month: July 2022
 - title: This is How You Lose Her
   author: Junot Diaz
-  month: June 2021
+  month: June 2022
 - title: The Overstory
   author: Richard Powers
-  month: April 2021
+  month: April 2022
 - title: Heavenly Breakfast
   author: Samuel L. Delany
-  month: March 2021
+  month: March 2022
 - title: The Control of Nature
   author: John McPhee
-  month: March 2021
+  month: March 2022
 - title: Native Son
   author: Richard Wright
-  month: March 2021
+  month: March 2022
 - title: The Baron in the Trees
   author: Italo Calvino
-  month: February 2021
+  month: February 2022
 - title: "The Right to Sex: Feminism in the 21st Century"
   author: Amia Srinivasan
-  month: January 2021
+  month: January 2022
 - title: The Eighth Day
   author: Thorton Wilder
   month: December 2021
