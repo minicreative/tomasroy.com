@@ -3,6 +3,12 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Gilead
+  author: Marilynne Robinson
+  month: November 2022
+- title: Invisible Man
+  author: Ralph Ellison
+  month: August 2022
 - title: The Grapes of Wrath
   author: John Steinbeck
   month: July 2022 (2nd read)
