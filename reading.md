@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Another Country
+  author: James Baldwin
+  month: January 2023
 - title: Gilead
   author: Marilynne Robinson
   month: November 2022
