@@ -3,6 +3,12 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Black Like Me
+  author: John Howard Griffin
+  month: August 2023
+- title: Dispatches from Pluto
+  author: Richard Grant
+  month: May 2023
 - title: Another Country
   author: James Baldwin
   month: January 2023
