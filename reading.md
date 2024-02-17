@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Yellow House
+  author: Sarah M. Broom
+  month: November 2023
 - title: Black Like Me
   author: John Howard Griffin
   month: August 2023
