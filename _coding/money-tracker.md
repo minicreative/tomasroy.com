@@ -1,6 +1,6 @@
 ---
 title: Money Tracker
-position: 1
+position: 2
 description: A simple spending tracker with an insights view.
 months: January 2019 - present
 bullets:

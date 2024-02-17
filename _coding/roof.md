@@ -1,6 +1,6 @@
 ---
 title: Roof
-position: 4
+position: 5
 description: A platform which provides tools for roommates to share their homes
   and for landlords to maintain their properties.
 months: August 2015 - April 2018

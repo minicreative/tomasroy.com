@@ -1,6 +1,6 @@
 ---
 title: Thesis
-position: 6
+position: 7
 description: A location-based social network prototype which aims to facilitate face-to-face
   communication about mutual interests that matter.
 months: November 2016

@@ -1,8 +1,8 @@
 ---
 title: Carolina Cartography Collective
-position: 0
-description: A group of UNC faculty and students making maps and other space-related media. 
-months: March 2019 - present
+position: 1
+description: I worked with a group of UNC faculty and students making maps and other space-related media. 
+months: March 2019 - September 2022
 bullets:
 - title: Coding Languages & Frameworks
   icon: fas fa-code
