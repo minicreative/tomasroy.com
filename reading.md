@@ -82,7 +82,7 @@ books:
   month: November 2021
 - title: Giovanni's Room
   author: James Baldwin
-  month: November 2021
+  month: November 2021 (2nd read)
 - title: "They Called Us River Rats: The Last Batture Settlement of New Orleans"
   author: Macon Fry
   month: October 2021
