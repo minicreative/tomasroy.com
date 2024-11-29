@@ -3,6 +3,18 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: 'Polysecure: Attachment, Trauma and Consensual Nonmonogamy'
+  author: Jessica Fern
+  month: October 2024
+- title: The Moon is Down
+  author: John Steinbeck
+  month: September 2024
+- title: 'The Making of a Counter Culture: Reflections on the Technocratic Society and Its Youthful Opposition'
+  author: Theodore Roszak
+  month: June 2024
+- title: The Coming of the Night
+  author: John Rechy
+  month: April 2024
 - title: The Yellow House
   author: Sarah M. Broom
   month: November 2023
