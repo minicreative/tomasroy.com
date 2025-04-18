@@ -1,7 +1,7 @@
 ---
-title: Coding
-permalink: "/coding/"
+title: Projects
+permalink: "/projects/"
 layout: list
-collection: coding
+collection: projects
 ---
 
