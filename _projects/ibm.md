@@ -1,8 +1,8 @@
 ---
 title: IBM
-position: 3
 description: I served as a software engineer on teams creating and supporting two of IBM Cloud's PaaS offerings.
-months: June 2019 - June 2021
+startDate: 2019-06-01 00:00:00 -04:00
+endDate: 2021-06-01 00:00:00 -04:00
 tags: 
 - programming
 bullets:

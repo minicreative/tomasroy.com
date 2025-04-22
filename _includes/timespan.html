@@ -1,0 +1,11 @@
+{% assign currentTimestamp = "now" | date: "%Y%m%d" | integer %}
+{% assign startTimestamp = timespanStart | date: "%Y%m%d" | integer %}
+{% assign endTimestamp = timespanEnd | date: "%Y%m%d" | integer %}
+
+{{ timespanStart | date: "%B %Y" }}
+{% if startTimestamp == endTimestamp %}
+{% elsif endTimestamp > currentTimestamp %}
+    - present
+{% else %}
+    - {{ timespanEnd | date: "%B %Y" }} 
+{% endif %}

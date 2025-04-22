@@ -1,9 +1,9 @@
 ---
 title: MiniCreative
-position: 4
 description: My freelance website design & development endeavor which has served over
   50 clients with a variety of different needs.
-months: November 2009 - May 2019
+startDate: 2009-11-01 00:00:00 -04:00
+endDate: 2019-05-01 00:00:00 -04:00
 tags:
 - programming
 - freelance

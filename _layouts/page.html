@@ -12,8 +12,10 @@
 	<div class="detail">{{ page.date | date: "%B %Y" }} / {{ page.content | number_of_words }} words</div>
 	{% endif %}
 
-	{% if page.months %}
-	<div class="detail">{{ page.months }}</div>
+	{% if page.startDate %}
+	{% assign timespanStart = page.startDate %}
+    {% assign timespanEnd = page.endDate %}
+	<div class="detail">{% include timespan.html %}</div>
 	{% endif %}
 
 	{% if page.tags %}

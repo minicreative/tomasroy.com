@@ -35,14 +35,18 @@
     {% endif %}
 
     {% if page.collection == "projects" %}
-        {% assign items = site.projects | sort:"position" %}
+        {% assign items = site.projects | sort:"endDate" | reverse %}
         {% for item in items %}
             {% capture item_css %}
                 tagged {% for tag in item.tags %} {{ tag }}{% endfor %}
             {% endcapture %}
             {% assign item_link = item.url %}
             {% assign item_title = item.title %}
-            {% assign item_detail = item.months %}
+            
+            {% assign timespanStart = item.startDate %}
+            {% assign timespanEnd = item.endDate %}
+            {% capture item_detail %}{% include timespan.html %}{% endcapture %}
+
             {% assign item_content = item.description %}
             {% assign item_tags = item.tags %}
             {% include item.html %}

@@ -1,8 +1,8 @@
 ---
 title: Money Tracker
-position: 2
 description: A simple spending tracker with an insights view.
-months: January 2019 - present
+startDate: 2019-01-01 00:00:00 -04:00
+endDate: 2027-01-01 00:00:00 -04:00
 tags:
 - programming
 bullets:

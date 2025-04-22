@@ -1,8 +1,8 @@
 ---
 title: Third Person Project
-position: 0
 description: I helped a collective of writers and historians from Wilmington, NC with a new website and a custom annotations platform. 
-months: June 2022 - present
+startDate: 2019-03-01 00:00:00 -04:00
+endDate: 2029-01-01 00:00:00 -04:00
 tags:
 - non-profit
 - programming

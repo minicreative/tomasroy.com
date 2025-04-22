@@ -1,9 +1,9 @@
 ---
 title: "¢Change"
-position: 6
 description: A social sharing prototype which aims to encourage people to publicly
   support the causes they care about and nudge their friends to do the same.
-months: August 2017 - November 2017
+startDate: 2017-08-01 00:00:00 -04:00
+endDate: 2017-11-01 00:00:00 -04:00
 tags:
 - non-profit
 - programming
