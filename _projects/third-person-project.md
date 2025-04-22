@@ -3,6 +3,9 @@ title: Third Person Project
 position: 0
 description: I helped a collective of writers and historians from Wilmington, NC with a new website and a custom annotations platform. 
 months: June 2022 - present
+tags:
+- non-profit
+- programming
 bullets:
 - title: Coding Languages & Frameworks
   icon: fas fa-code

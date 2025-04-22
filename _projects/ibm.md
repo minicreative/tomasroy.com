@@ -3,6 +3,8 @@ title: IBM
 position: 3
 description: I served as a software engineer on teams creating and supporting two of IBM Cloud's PaaS offerings.
 months: June 2019 - June 2021
+tags: 
+- programming
 bullets:
 - title: Coding Languages & Frameworks
   icon: fas fa-code
