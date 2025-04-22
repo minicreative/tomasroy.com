@@ -3,12 +3,15 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Parable of the Talents
+  author: Octavia Butler
+  month: April 2025
 - title: The Disposessed
   author: Ursula K. LeGuin
-  month: April 2025
+  month: February 2025
 - title: 'Intimate Direct Democracy: Fort Mose, the Great Dismal Swamp, and the Human Quest for Freedom'
   author: Modibo Kadalie
-  month: February 2025
+  month: December 2024
 - title: 'Polysecure: Attachment, Trauma and Consensual Nonmonogamy'
   author: Jessica Fern
   month: October 2024
