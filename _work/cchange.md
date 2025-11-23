@@ -5,7 +5,7 @@ description: A social sharing prototype which aims to encourage people to public
 startDate: 2017-08-01 00:00:00 -04:00
 endDate: 2017-11-01 00:00:00 -04:00
 tags:
-- non-profit
+- not-for-profit
 - programming
 screens:
 - image: "/uploads/cchange1.png"

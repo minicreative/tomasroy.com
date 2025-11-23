@@ -5,6 +5,6 @@ startDate: 2021-08-01 00:00:00 -04:00
 endDate: 2023-09-01 00:00:00 -04:00
 tags:
 - carpentry
-- non-profit
+- not-for-profit
 layout: page
 ---

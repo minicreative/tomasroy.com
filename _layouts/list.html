@@ -34,8 +34,8 @@
         {% endfor %}
     {% endif %}
 
-    {% if page.collection == "projects" %}
-        {% assign items = site.projects | sort:"endDate" | reverse %}
+    {% if page.collection == "work" %}
+        {% assign items = site.work | sort:"endDate" | reverse %}
         {% for item in items %}
             {% capture item_css %}
                 tagged {% for tag in item.tags %} {{ tag }}{% endfor %}

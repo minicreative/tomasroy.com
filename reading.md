@@ -3,6 +3,15 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Autobiography of my Mother
+  author: Jamaica Kincaid
+  month: November 2025
+- title: The Jailhouse Lawyer
+  author: Calvin Duncan and Sophie Cull
+  month: August 2025
+- title: The Ministry for the Future
+  author: Kim Stanley Robinson
+  month: June 2025
 - title: The Parable of the Talents
   author: Octavia Butler
   month: April 2025

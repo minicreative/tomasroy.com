@@ -4,6 +4,6 @@ description: My neighbors and I organized around starting a cooperative communit
 startDate: 2023-01-01 00:00:00 -04:00
 endDate: 2033-01-01 00:00:00 -04:00
 tags:
-- non-profit
+- not-for-profit
 layout: page
 ---

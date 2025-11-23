@@ -5,8 +5,8 @@ collections:
   posts:
     title: Posts
     output: true
-  projects:
-    title: Projects
+  work:
+    title: Work
     output: true
   uploads:
     title: Uploads
@@ -21,12 +21,12 @@ background_images:
 - "/uploads/30.jpg"
 - "/uploads/41.jpg"
 nav:
+- title: Work
+  url: "/work"
 - title: Reading
   url: "/reading"
 - title: Writing
   url: "/writing"
-- title: Projects
-  url: "/projects"
 headshot: "/uploads/TomasRoy.jpg"
 footer_text: Thanks for visiting! You can email me at [hello@minicreative.net](mailto:hello@minicreative.net)
 sass:

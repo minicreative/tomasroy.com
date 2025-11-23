@@ -4,7 +4,7 @@ description: I helped a collective of writers and historians from Wilmington, NC
 startDate: 2019-03-01 00:00:00 -04:00
 endDate: 2029-01-01 00:00:00 -04:00
 tags:
-- non-profit
+- not-for-profit
 - programming
 bullets:
 - title: Coding Languages & Frameworks

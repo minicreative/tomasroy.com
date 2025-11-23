@@ -4,7 +4,7 @@ description: I worked with a group of UNC faculty and students making maps and o
 startDate: 2019-03-01 00:00:00 -04:00
 endDate: 2022-09-01 00:00:00 -04:00
 tags:
-- non-profit
+- not-for-profit
 - programming
 bullets:
 - title: Coding Languages & Frameworks

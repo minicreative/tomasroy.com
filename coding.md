@@ -1,7 +1,7 @@
 ---
-title: Projects
-permalink: "/projects/"
+title: Work
+permalink: "/work/"
 layout: list
-collection: projects
+collection: work
 ---
 
