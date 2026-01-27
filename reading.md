@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Coming Through Slaughter
+  author: Michael Ondaatje
+  month: December 2025
 - title: The Autobiography of my Mother
   author: Jamaica Kincaid
   month: November 2025
