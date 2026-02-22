@@ -3,6 +3,9 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: Nobody Knows My Name
+  author: James Baldwin
+  month: February 2026
 - title: Coming Through Slaughter
   author: Michael Ondaatje
   month: December 2025

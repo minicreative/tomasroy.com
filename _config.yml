@@ -28,7 +28,7 @@ nav:
 - title: Writing
   url: "/writing"
 headshot: "/uploads/TomasRoy.jpg"
-footer_text: Thanks for visiting! You can email me at [hello@minicreative.net](mailto:hello@minicreative.net)
+footer_text: Thanks for visiting! You can email me at tomasroy7 at gmail dot com.
 sass:
   style: compressed
 plugins:
