@@ -3,7 +3,7 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
-- title: The Theif's Journal
+- title: The Thief's Journal
   author: Jean Genet
   month: September 2026
 - title: If Beale Street Could Talk
