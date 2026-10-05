@@ -37,19 +37,21 @@
     {% if page.collection == "work" %}
         {% assign items = site.work | sort:"endDate" | reverse %}
         {% for item in items %}
-            {% capture item_css %}
-                tagged {% for tag in item.tags %} {{ tag }}{% endfor %}
-            {% endcapture %}
-            {% assign item_link = item.url %}
-            {% assign item_title = item.title %}
-            
-            {% assign timespanStart = item.startDate %}
-            {% assign timespanEnd = item.endDate %}
-            {% capture item_detail %}{% include timespan.html %}{% endcapture %}
+            {% if item.hide != true %}
+                {% capture item_css %}
+                    tagged {% for tag in item.tags %} {{ tag }}{% endfor %}
+                {% endcapture %}
+                {% assign item_link = item.url %}
+                {% assign item_title = item.title %}
+                
+                {% assign timespanStart = item.startDate %}
+                {% assign timespanEnd = item.endDate %}
+                {% capture item_detail %}{% include timespan.html %}{% endcapture %}
 
-            {% assign item_content = item.description %}
-            {% assign item_tags = item.tags %}
-            {% include item.html %}
+                {% assign item_content = item.description %}
+                {% assign item_tags = item.tags %}
+                {% include item.html %}
+            {% endif %}
         {% endfor %}
     {% endif %}
 	

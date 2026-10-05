@@ -5,5 +5,6 @@ startDate: 2023-11-01 00:00:00 -04:00
 endDate: 2030-01-01 00:00:00 -04:00
 tags:
 - carpentry
+- freelance
 layout: page
 ---

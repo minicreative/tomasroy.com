@@ -4,6 +4,7 @@ date: 2016-02-10 13:51:00 -05:00
 tags:
 - poetry
 layout: page
+hide: true
 ---
 
 It is beautiful  

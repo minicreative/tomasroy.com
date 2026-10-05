@@ -4,6 +4,7 @@ date: 2021-11-13 00:00:00 -04:00
 tags:
 - story
 layout: page
+hide: true
 ---
 
 He and I are walking towards the river on Clouet Street on our way to Mass. It is quarter to eight on a Sunday morning. We are smoking cigarettes and drinking coffee as we walk. It's been quite a while since either of us have been to church, but for a reason that's not quite clear to me I've had an itching to go since moving back to New Orleans about two months ago.

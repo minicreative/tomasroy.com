@@ -3,7 +3,7 @@ title: A night in Birmingham on July 3, 2018
 date: 2018-07-04 00:00:00 -04:00
 tags:
 - story
-hide: false
+hide: true
 layout: page
 ---
 

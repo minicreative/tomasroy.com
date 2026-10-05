@@ -3,6 +3,21 @@ title: Reading
 permalink: "/reading/"
 layout: list
 books:
+- title: The Theif's Journal
+  author: Jean Genet
+  month: September 2026
+- title: If Beale Street Could Talk
+  author: James Baldwin
+  month: July 2026 (2nd read)
+- title: Budding Prospects
+  author: T. C. Boyle
+  month: June 2026
+- title: To a God Unknown
+  author: John Steinbeck
+  month: May 2026
+- title: An Essay on Liberation
+  author: Herbert Marcuse
+  month: April 2026
 - title: Nobody Knows My Name
   author: James Baldwin
   month: February 2026
